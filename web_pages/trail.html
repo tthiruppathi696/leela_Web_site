@@ -1,0 +1,1667 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <title>Trail Enquire</title>
+
+</head>
+<body class="bg-[#F8F4EC]">
+<section class="relative h-screen overflow-hidden">
+
+    <!-- Background Image -->
+    <img
+        src="../img/trial1.jpg"
+        alt="Luxury Hotel"
+        class="absolute inset-0 w-full h-full object-cover">
+
+    <!-- Dark Overlay -->
+    <div class="absolute inset-0 bg-black/5"></div>
+
+
+
+<!-- Navbar -->
+<header class="fixed top-0 left-0 w-full z-50 bg-[#F8F4EB] shadow-sm">
+
+    <nav class="max-w-[1600px] mx-auto h-20 md:h-24 px-4 md:px-8 flex items-center justify-between">
+
+        <!-- Left -->
+        <div class="flex items-center gap-4 lg:gap-10">
+
+            <!-- Menu -->
+             <input type="checkbox" id="menu-toggle" class="hidden peer">
+
+       <label for="menu-toggle"
+       class="text-3xl cursor-pointer hover:text-[#9D6C43]">
+           ☰
+        </label>
+
+        <!-- Sidebar -->
+<div
+class="fixed top-0 left-[-100%]
+peer-checked:left-0
+w-72 h-screen  bg-[#F8F4EB]  shadow-xl
+z-[999] transition-all duration-300">
+
+    <!-- Close -->
+    <div class="flex justify-end p-6">
+        <label for="menu-toggle"
+               class="text-4xl cursor-pointer">
+            ✕
+        </label>
+    </div>
+<nav class="flex flex-col">
+
+    <!-- Home -->
+    <a href="../Index.html"
+       class="px-6 py-4 border-b hover:bg-gray-100">
+        Home
+    </a>
+
+    <!-- Hotels Dropdown -->
+    <div class="relative group border-b">
+
+        <button
+            class="w-full flex justify-between items-center px-6 py-4 hover:bg-gray-100">
+            Hotels
+            <span>▼</span>
+        </button>
+
+        <!-- Dropdown -->
+        <div
+            class="hidden group-hover:block bg-[#F8F4EC] shadow-md">
+
+            <a href="leelamumbai.html"
+               class="block px-8 py-3 hover:bg-gray-100">
+                The Leela Mumbai
+            </a>
+
+            <a href="leeladelhi.html"
+               class="block px-8 py-3 hover:bg-gray-100">
+                The Leela Palace New Delhi
+            </a>
+
+            <a href="bengaluru.html"
+               class="block px-8 py-3 hover:bg-gray-100">
+                The Leela Palace Bengaluru
+            </a>
+
+            <a href="chennai.html"
+               class="block px-8 py-3 hover:bg-gray-100">
+                The Leela Palace Chennai
+            </a>
+
+            <a href="jaipur.html"
+               class="block px-8 py-3 hover:bg-gray-100">
+                The Leela Palace Jaipur
+            </a>
+
+        </div>
+
+    </div>
+
+    <!-- Experiences -->
+    <a href="experience.html"
+       class="px-6 py-4 border-b hover:bg-gray-100">
+        Experiences
+    </a>
+
+    <!-- Offers -->
+    <a href="offers.html"
+       class="px-6 py-4 border-b hover:bg-gray-100">
+        Offers
+    </a>
+
+    <!-- Contact -->
+    <a href="contact.html"
+       class="px-6 py-4 border-b hover:bg-gray-100">
+        Contact Us
+    </a>
+
+    <!-- Book -->
+    <a href="Booking.html"
+       class="mx-6 mt-8 text-center py-3 bg-[#9D6C43] text-white hover:bg-[#835734] transition">
+        BOOK
+    </a>
+
+</nav>
+
+</div>
+
+            <!-- Desktop Links -->
+            <ul class="hidden lg:flex items-center gap-10 text-[18px] text-[#222]">
+
+<li class="relative group">
+
+    <!-- Hotels Button -->
+    <a href="#" class="flex items-center gap-1 py-8 hover:text-[#9D6C43] transition">
+        Hotels
+        <span class="text-xs">▼</span>
+    </a>
+
+    <!-- Mega Dropdown -->
+    <div class="absolute left-0 top-full w-screen bg-[#F8F4EB] shadow-xl
+                opacity-0 invisible
+                group-hover:opacity-100
+                group-hover:visible
+                transition-all duration-300 z-50">
+
+        <div class="max-w-7xl mx-auto px-10 py-10">
+
+            <div class="grid grid-cols-4 gap-12">
+
+                <!-- Left Menu -->
+                <div class="space-y-5 border-r pr-8">
+
+                    <a href="#" class="block font-semibold border-b border-[#9D6C43] pb-2">
+                        All Hotels
+                    </a>
+
+                    <a href="#" class="block hover:text-[#9D6C43]">
+                        Palaces
+                    </a>
+
+                    <a href="#" class="block hover:text-[#9D6C43]">
+                        Hotels
+                    </a>
+
+                    <a href="#" class="block hover:text-[#9D6C43]">
+                        Resorts
+                    </a>
+
+                </div>
+
+                <!-- Column 1 -->
+                <div class="space-y-6">
+
+                    <div>
+                        <h3 class="font-semibold text-xl">Bengaluru</h3>
+                        <p>The Leela Palace Bengaluru</p>
+                        <p>The Leela Bhartiya City Bengaluru</p>
+                    </div>
+
+                    <div>
+                        <h3 class="font-semibold text-xl">Jaipur</h3>
+                        <p>The Leela Palace Jaipur</p>
+                    </div>
+
+                    <div>
+                        <h3 class="font-semibold text-xl">Hyderabad</h3>
+                        <p>The Leela Hyderabad</p>
+                    </div>
+
+                    <div>
+                        <h3 class="font-semibold text-xl">Gandhinagar</h3>
+                        <p>The Leela Gandhinagar</p>
+                    </div>
+
+                </div>
+
+                <!-- Column 2 -->
+                <div class="space-y-6">
+
+                    <div>
+                        <h3 class="font-semibold text-xl">Coorg</h3>
+                        <p>The Leela Coorg Forest Sanctuary</p>
+                    </div>
+
+                    <div>
+                        <h3 class="font-semibold text-xl">Delhi</h3>
+                        <p>The Leela Palace New Delhi</p>
+                        <p>The Leela Ambience Convention Hotel Delhi</p>
+                    </div>
+
+                    <div>
+                        <h3 class="font-semibold text-xl">Ashtamudi</h3>
+                        <p>The Leela Ashtamudi</p>
+                    </div>
+
+                    <div>
+                        <h3 class="font-semibold text-xl">Gurugram</h3>
+                        <p>The Leela Ambience Gurugram</p>
+                    </div>
+
+                </div>
+
+                <!-- Column 3 -->
+                <div class="space-y-6">
+
+                    <div>
+                        <h3 class="font-semibold text-xl">Chennai</h3>
+                        <p>The Leela Palace Chennai</p>
+                    </div>
+
+                    <div>
+                        <h3 class="font-semibold text-xl">Udaipur</h3>
+                        <p>The Leela Palace Udaipur</p>
+                    </div>
+
+                    <div>
+                        <h3 class="font-semibold text-xl">Kovalam</h3>
+                        <p>The Leela Kovalam</p>
+                    </div>
+
+                    <div>
+                        <h3 class="font-semibold text-xl">Mumbai</h3>
+                        <p>The Leela Mumbai</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</li>
+
+                <li>
+                    <a href="experience.html" class="hover:text-[#9D6C43] transition">
+                        Experiences
+                    </a>
+                </li>
+
+                <li>
+                    <a href="offers.html" class="hover:text-[#9D6C43] transition">
+                        Offers
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- Center Logo -->
+        <div class="absolute left-1/2 -translate-x-1/2 text-center">
+
+            <h1
+                class="text-xl sm:text-2xl md:text-4xl tracking-[0.25em] md:tracking-[0.35em]"
+                style="font-family:'Cinzel',serif;">
+
+                LEELA
+
+            </h1>
+
+            <p
+                class="hidden sm:block text-[8px] md:text-[11px] uppercase tracking-[0.3em] text-gray-600">
+
+                PALACES • HOTELS • RESORTS
+
+            </p>
+
+        </div>
+
+     <!-- Right -->
+<div class="flex items-center gap-2 sm:gap-4 md:gap-8">
+
+    <!-- Login -->
+    <a href="Login.html"
+       class="flex items-center gap-1 sm:gap-2
+              hover:text-[#9D6C43] transition">
+
+        <svg xmlns="http://www.w3.org/2000/svg"
+             fill="none"
+             viewBox="0 0 24 24"
+             stroke-width="1.8"
+             stroke="currentColor"
+             class="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7">
+
+            <path stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M15.75 6.75a3.75 3.75 0 11-7.5 0
+                  3.75 3.75 0 017.5 0zM4.5
+                  20.118a7.5 7.5 0 0115
+                  0A17.933 17.933 0 0112
+                  21.75c-2.676 0-5.216-.584-7.5-1.632z"/>
+
+        </svg>
+
+        <!-- Login text hidden only on very small screens -->
+        <span class="hidden sm:inline text-sm md:text-lg">
+            Login
+        </span>
+
+    </a>
+
+    <!-- Book -->
+    <a href="Booking.html"
+       class="bg-[#9D6C43]
+              hover:bg-[#7f5636]
+              text-white
+              px-3 sm:px-5 md:px-10
+              py-2 sm:py-2.5 md:py-3
+              text-xs sm:text-sm md:text-base
+              tracking-widest
+              uppercase
+              whitespace-nowrap">
+
+        Book
+
+    </a>
+
+</div>
+
+    </nav>
+
+</header>
+
+
+
+<!-- ================= BOOKING SECTION ================= -->
+<section class="hidden md:block absolute bottom-0 left-0 w-full z-30">
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <div class="bg-[#78656d]/90 backdrop-blur-md p-3 sm:p-4">
+
+            <!-- Booking Fields -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3">
+
+                <!-- ================= HOTEL ================= -->
+                <div class="relative">
+
+                    <details class="group">
+
+                        <summary
+                            class="list-none cursor-pointer h-[58px]
+                                   border border-white
+                                   flex items-center justify-between
+                                   px-4
+                                   text-white
+                                   hover:bg-white/10
+                                   transition">
+
+                            <div class="flex items-center gap-3">
+
+                                <!-- Hotel Icon -->
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                     fill="none"
+                                     viewBox="0 0 24 24"
+                                     stroke-width="1.7"
+                                     stroke="currentColor"
+                                     class="w-6 h-6 shrink-0">
+
+                                    <path stroke-linecap="round"
+                                          stroke-linejoin="round"
+                                          d="M3 21h18M5 21V7a2 2 0 012-2h10a2 2 0 012 2v14M9 9h1m4 0h1M9 13h1m4 0h1M9 17h1m4 0h1"/>
+
+                                </svg>
+
+                                <span class="text-base sm:text-lg">
+                                    Select a Hotel
+                                </span>
+
+                            </div>
+
+                            <span class="text-xl transition-transform
+                                         group-open:rotate-180">
+                               ⌄
+                            </span>
+
+                        </summary>
+
+
+                        <!-- Hotel Dropdown -->
+                        <div class="absolute bottom-full left-0 mb-2
+                                    w-full
+                                    bg-[#F8F4EC]
+                                    text-[#555]
+                                    shadow-2xl
+                                    border border-[#d8cbb8]
+                                    z-50">
+
+                            <div class="p-4">
+
+                                <!-- Search -->
+                                <input
+                                    type="text"
+                                    placeholder="Search for Leela/Partners hotels or cities..."
+                                    class="w-full rounded-full
+                                           border border-gray-300
+                                           px-4 py-3
+                                           text-sm
+                                           text-gray-700
+                                           focus:outline-none
+                                           focus:border-[#9D6C43]">
+
+                            </div>
+
+                            <div class="max-h-72 overflow-y-auto px-4 pb-4">
+
+                                <p class="font-semibold
+                                          uppercase
+                                          tracking-wide
+                                          text-sm
+                                          text-gray-600
+                                          bg-[#f3efe8]
+                                          px-4 py-3">
+                                    THE LEELA COLLECTION
+                                </p>
+
+                                <div class="mt-3">
+
+                                    <p class="text-[#9D6C43] font-medium px-4 py-2">
+                                        Bengaluru
+                                    </p>
+
+                                    <a href="bengaluru.html"
+                                       class="block px-4 py-2
+                                              hover:bg-gray-100">
+                                        The Leela Palace Bengaluru
+                                    </a>
+
+                                    <a href="#"
+                                       class="block px-4 py-2
+                                              hover:bg-gray-100">
+                                        The Leela Bhartiya City Bengaluru
+                                    </a>
+
+                                </div>
+
+                                <div class="mt-2">
+
+                                    <p class="text-[#9D6C43] font-medium px-4 py-2">
+                                        Coorg
+                                    </p>
+
+                                    <a href="coorg.html"
+                                       class="block px-4 py-2
+                                              hover:bg-gray-100">
+                                        The Leela Coorg Forest Sanctuary
+                                    </a>
+
+                                </div>
+
+                                <div class="mt-2">
+
+                                    <p class="text-[#9D6C43] font-medium px-4 py-2">
+                                        Chennai
+                                    </p>
+
+                                    <a href="chennai.html"
+                                       class="block px-4 py-2
+                                              hover:bg-gray-100">
+                                        The Leela Palace Chennai
+                                    </a>
+
+                                </div>
+
+                                <div class="mt-2">
+
+                                    <p class="text-[#9D6C43] font-medium px-4 py-2">
+                                        Jaipur
+                                    </p>
+
+                                    <a href="jaipur.html"
+                                       class="block px-4 py-2
+                                              hover:bg-gray-100">
+                                        The Leela Palace Jaipur
+                                    </a>
+
+                                </div>
+
+                                <div class="mt-2">
+
+                                    <p class="text-[#9D6C43] font-medium px-4 py-2">
+                                        Mumbai
+                                    </p>
+
+                                    <a href="leelamumbai.html"
+                                       class="block px-4 py-2
+                                              hover:bg-gray-100">
+                                        The Leela Mumbai
+                                    </a>
+
+                                </div>
+
+                                <div class="mt-2">
+
+                                    <p class="text-[#9D6C43] font-medium px-4 py-2">
+                                        Delhi
+                                    </p>
+
+                                    <a href="leeladelhi.html"
+                                       class="block px-4 py-2
+                                              hover:bg-gray-100">
+                                        The Leela Palace New Delhi
+                                    </a>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </details>
+
+                </div>
+
+
+                <!-- ================= CHECK IN / CHECK OUT ================= -->
+                <div class="relative">
+
+                    <details class="group">
+
+                        <summary
+                            class="list-none cursor-pointer h-[58px]
+                                   border border-white
+                                   flex items-center justify-between
+                                   px-4
+                                   text-white
+                                   hover:bg-white/10
+                                   transition">
+
+                            <div class="flex items-center gap-3">
+
+                                <!-- Calendar Icon -->
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                     fill="none"
+                                     viewBox="0 0 24 24"
+                                     stroke-width="1.7"
+                                     stroke="currentColor"
+                                     class="w-6 h-6 shrink-0">
+
+                                    <path stroke-linecap="round"
+                                          stroke-linejoin="round"
+                                          d="M6.75 3v2.25M17.25 3v2.25M3 9.75h18M5.25 5.25h13.5A2.25 2.25 0 0121 7.5v11.25A2.25 2.25 0 0118.75 21H5.25A2.25 2.25 0 013 18.75V7.5a2.25 2.25 0 012.25-2.25z"/>
+
+                                </svg>
+
+                                <span class="text-base sm:text-lg">
+                                    Check-in - Check-out
+                                </span>
+
+                            </div>
+
+                            <span class="text-xl transition-transform
+                                         group-open:rotate-180">
+                               ⌄
+                            </span>
+
+                        </summary>
+
+
+                        <!-- Date Dropdown -->
+                        <div class="absolute bottom-full left-0 mb-2
+                                    w-full
+                                    bg-[#F8F4EC]
+                                    p-5
+                                    shadow-2xl
+                                    border border-[#d8cbb8]
+                                    z-50">
+
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+
+                                <div>
+
+                                    <label class="block text-sm
+                                                  text-gray-600 mb-2">
+                                        Check-in
+                                    </label>
+
+                                    <input
+                                        type="date"
+                                        class="w-full border
+                                               border-gray-300
+                                               bg-white
+                                               px-3 py-3
+                                               text-gray-700
+                                               focus:outline-none
+                                               focus:border-[#9D6C43]">
+
+                                </div>
+
+                                <div>
+
+                                    <label class="block text-sm
+                                                  text-gray-600 mb-2">
+                                        Check-out
+                                    </label>
+
+                                    <input
+                                        type="date"
+                                        class="w-full border
+                                               border-gray-300
+                                               bg-white
+                                               px-3 py-3
+                                               text-gray-700
+                                               focus:outline-none
+                                               focus:border-[#9D6C43]">
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </details>
+
+                </div>
+
+
+                <!-- ================= ROOMS ================= -->
+                <div class="relative">
+
+                    <details class="group">
+
+                        <summary
+                            class="list-none cursor-pointer h-[58px]
+                                   border border-white
+                                   flex items-center justify-between
+                                   px-4
+                                   text-white
+                                   hover:bg-white/10
+                                   transition">
+
+                            <div class="flex items-center gap-3 min-w-0">
+
+                                <!-- User Icon -->
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                     fill="none"
+                                     viewBox="0 0 24 24"
+                                     stroke-width="1.7"
+                                     stroke="currentColor"
+                                     class="w-6 h-6 shrink-0">
+
+                                    <path stroke-linecap="round"
+                                          stroke-linejoin="round"
+                                          d="M15.75 6.75a3.75 3.75 0 11-7.5 0
+                                          3.75 3.75 0 017.5 0zM4.5
+                                          20.118a7.5 7.5 0 0115
+                                          0A17.933 17.933 0 0112
+                                          21.75c-2.676 0-5.216-.584-7.5-1.632z"/>
+
+                                </svg>
+
+                                <span class="text-base sm:text-lg truncate">
+                                    1 Room, 2 Adults, 0 Children
+                                </span>
+
+                            </div>
+
+                            <span class="text-xl transition-transform">
+                               ⌄
+                            </span>
+
+                        </summary>
+
+
+                        <!-- Room Dropdown -->
+                        <div class="absolute bottom-full right-0 mb-2
+                                    w-full sm:w-[320px]
+                                    bg-[#F8F4EC]
+                                    text-gray-700
+                                    p-5
+                                    shadow-2xl
+                                    border border-[#d8cbb8]
+                                    z-50">
+
+                            <!-- Rooms -->
+                            <div class="flex items-center justify-between
+                                        border-b pb-4">
+
+                                <span class="font-medium">
+                                    Rooms
+                                </span>
+
+                                <div class="flex items-center gap-3">
+
+                                    <button
+                                        type="button"
+                                        class="w-8 h-8 border
+                                               border-gray-400
+                                               hover:bg-gray-200">
+                                        −
+                                    </button>
+
+                                    <span>1</span>
+
+                                    <button
+                                        type="button"
+                                        class="w-8 h-8 border
+                                               border-gray-400
+                                               hover:bg-gray-200">
+                                        +
+                                    </button>
+
+                                </div>
+
+                            </div>
+
+
+                            <!-- Adults -->
+                            <div class="flex items-center justify-between
+                                        border-b py-4">
+
+                                <span class="font-medium">
+                                    Adults
+                                </span>
+
+                                <div class="flex items-center gap-3">
+
+                                    <button
+                                        type="button"
+                                        class="w-8 h-8 border
+                                               border-gray-400">
+                                        −
+                                    </button>
+
+                                    <span>2</span>
+
+                                    <button
+                                        type="button"
+                                        class="w-8 h-8 border
+                                               border-gray-400">
+                                        +
+                                    </button>
+
+                                </div>
+
+                            </div>
+
+
+                            <!-- Children -->
+                            <div class="flex items-center justify-between
+                                        pt-4">
+
+                                <span class="font-medium">
+                                    Children
+                                </span>
+
+                                <div class="flex items-center gap-3">
+
+                                    <button
+                                        type="button"
+                                        class="w-8 h-8 border
+                                               border-gray-400">
+                                        −
+                                    </button>
+
+                                    <span>0</span>
+
+                                    <button
+                                        type="button"
+                                        class="w-8 h-8 border
+                                               border-gray-400">
+                                        +
+                                    </button>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </details>
+
+                </div>
+
+
+                <!-- ================= PROMO CODE ================= -->
+                <div class="relative">
+
+                    <details class="group">
+
+                        <summary
+                            class="list-none cursor-pointer h-[58px]
+                                   border border-white
+                                   flex items-center justify-between
+                                   px-4
+                                   text-white
+                                   hover:bg-white/10
+                                   transition">
+
+                            <div class="flex items-center gap-3">
+
+                                <!-- Tag Icon -->
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                     fill="none"
+                                     viewBox="0 0 24 24"
+                                     stroke-width="1.7"
+                                     stroke="currentColor"
+                                     class="w-6 h-6">
+
+                                    <path stroke-linecap="round"
+                                          stroke-linejoin="round"
+                                          d="M9.568 3.75H6.75A2.25
+                                          2.25 0 004.5 6v2.818c0
+                                          .597.237 1.17.659
+                                          1.591l7.932 7.932a2.25
+                                          2.25 0 003.182 0l2.818-2.818
+                                          a2.25 2.25 0 000-3.182L11.159
+                                          4.409a2.25 2.25 0 00-1.591-.659z"/>
+
+                                    <path stroke-linecap="round"
+                                          stroke-linejoin="round"
+                                          d="M7.5 7.5h.008v.008H7.5V7.5z"/>
+
+                                </svg>
+
+                                <span class="text-base sm:text-lg">
+                                    Promo Code
+                                </span>
+
+                            </div>
+
+                            <span class="text-xl transition-transform
+                                         group-open:rotate-180">
+                               ⌄
+                            </span>
+
+                        </summary>
+
+
+                        <!-- Promo Dropdown -->
+                        <div class="absolute bottom-full right-0 mb-2
+                                    w-full
+                                    bg-[#F8F4EC]
+                                    p-5
+                                    shadow-2xl
+                                    border border-[#d8cbb8]
+                                    z-50">
+
+                            <label class="block text-sm
+                                          text-gray-600 mb-2">
+                                Enter Promo Code
+                            </label>
+
+                            <input
+                                type="text"
+                                placeholder="Enter promo code"
+                                class="w-full border
+                                       border-gray-300
+                                       bg-white
+                                       px-4 py-3
+                                       text-gray-700
+                                       focus:outline-none
+                                       focus:border-[#9D6C43]">
+
+                        </div>
+
+                    </details>
+
+                </div>
+
+
+                <!-- ================= BOOK BUTTON ================= -->
+                <div>
+
+                    <a href="Booking.html"
+                       class="h-[58px]
+                              w-full
+                              bg-[#9D6C43]
+                              hover:bg-[#835734]
+                              flex items-center
+                              justify-center
+                              text-white
+                              text-base sm:text-lg
+                              uppercase
+                              tracking-widest
+                              transition">
+
+                        BOOK
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- Best Rate -->
+            <div class="flex justify-end mt-2">
+
+                <p class="text-xs sm:text-sm text-amber-200">
+                    ✓ Best Rate Guarantee
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+</section>
+
+    <div class="max-w-[980px] mx-auto px-5 sm:px-8 lg:px-0">
+
+  
+
+        <!-- Heading -->
+        <h1 class="text-center
+                   font-serif
+                   text-[#B38A52]
+                   uppercase
+                   text-4xl
+                   sm:text-5xl
+                   md:text-6xl
+                   lg:text-[72px]
+                   leading-tight">
+
+            THE LEELA PALACE TRAIL
+
+        </h1>
+
+        <!-- Content -->
+        <div class="mt-8
+                    text-gray-600
+                    text-base
+                    sm:text-lg
+                    leading-8
+                    sm:leading-9
+                    lg:text-[18px]
+                    lg:leading-[42px]">
+
+            <p class="mb-8">
+                There is no land quite as soul-stirring as India and no finer way to discover its rich mosaic of culture, heritage, and beauty than through the lens of The Leela. From the shimmering lakes of Udaipur to the tranquil backwaters of Kerala and the vibrant rhythms of New Delhi, each destination reveals a different facet of India's essence.
+            </p>
+
+            <p class="mb-8">
+                Welcome to The Leela Palace Trail — an extraordinary journey across eight award-winning palaces, hotels and resorts in India's most captivating locales: New Delhi, Jaipur, Udaipur, Bengaluru, Chennai, Ashtamudi, Kovalam and Hyderabad. Curate your own multi-day itinerary as you traverse this trail of timeless elegance.
+            </p>
+
+            <p class="mb-8">
+                Every palace along the trail offers a distinct narrative from architectural marvels and breathtaking surroundings to curated cultural encounters and unparalleled service. At each stop, discover India at its most luxurious, most authentic, and most unforgettable.
+            </p>
+
+            <p class="mb-8">
+                This is more than a journey. It is an invitation to experience India through a royal lens only at The Leela.
+            </p>
+
+            <p>
+                To view our brochure, please click
+                <a href="#" class="text-[#B38A52] hover:underline">
+                    here.
+                </a>
+            </p>
+
+        </div>
+
+        <!-- Button -->
+        <div class="flex justify-center mt-10 sm:mt-12 lg:mt-14">
+
+           <a href="#enquiry"
+                class="bg-[#A97442]
+                       hover:bg-[#8b633d]
+                       text-white
+                       uppercase
+                       px-8 sm:px-10
+                       py-3 sm:py-4
+                       text-sm sm:text-base lg:text-lg
+                       transition">
+
+                ENQUIRE NOW
+
+           </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="bg-[#F8F4EC] py-12 md:py-16 lg:py-20">
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+
+        <!-- Heading -->
+        <h2 class="text-center
+                   text-4xl sm:text-5xl md:text-6xl lg:text-[68px]
+                   font-serif text-[#b48a4b] uppercase mb-10 lg:mb-14">
+
+            Offer Inclusions
+
+        </h2>
+
+        <!-- Images -->
+        <div class="flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-12">
+
+            <!-- Left Arrow -->
+            <button
+                class="hidden lg:flex w-14 h-14 rounded-full bg-[#3b3b3b] text-white text-3xl items-center justify-center">
+
+                &#8249;
+
+            </button>
+
+            <!-- Image 1 -->
+            <img
+                src="../img/room.jpg"
+                alt="Room"
+                class="w-64 sm:w-72 lg:w-[230px]
+                       h-auto lg:h-[330px] object-cover">
+
+            <!-- Center Image -->
+            <img
+                src="../img/suite.jpg"
+                alt="Suite"
+                class="w-72 sm:w-80 lg:w-[320px]
+                       h-auto lg:h-[470px] object-cover">
+
+            <!-- Image 3 -->
+            <img
+                src="../img/service.jpg"
+                alt="Service"
+                class="w-64 sm:w-72 lg:w-[230px]
+                       h-auto lg:h-[330px] object-cover">
+
+            <!-- Right Arrow -->
+            <button
+                class="hidden lg:flex w-14 h-14 rounded-full bg-[#3b3b3b] text-white text-3xl items-center justify-center">
+
+                &#8250;
+
+            </button>
+
+        </div>
+
+        <!-- Divider -->
+        <div class="border-t border-[#caa56c] mt-8 lg:mt-10"></div>
+
+        <!-- Caption -->
+        <h3 class="text-center
+                   text-2xl sm:text-3xl lg:text-[34px]
+                   font-serif text-[#b48a4b]
+                   mt-8 lg:mt-10 leading-snug">
+
+            Accommodation in premium room categories across participating
+            Leela Palaces
+
+        </h3>
+
+    </div>
+
+</section>
+
+<section class="relative">
+
+    <!-- Main Image -->
+    <img
+        id="destinationImage"
+        src="../img/newdelhi.jpg"
+        class="w-full h-[700px] md:h-[600px] sm:h-[450px] object-cover duration-500 "
+        alt="Destination">
+
+    <!-- Overlay -->
+    <div class="absolute inset-0 bg-black/20">
+
+        <div class="pt-10">
+
+            <h2 class="text-white text-center
+                       text-3xl md:text-5xl font-serif">
+
+                CHOOSE FROM 8 DESTINATIONS
+
+            </h2>
+
+            <!-- Destination Navbar -->
+            <div class="flex flex-wrap justify-center
+                        gap-4 md:gap-8
+                        mt-10
+                        text-white
+                        text-sm md:text-2xl">
+
+                <button onmouseover="changeImage('../img/newdelhi.jpg')">NEW DELHI</button>
+
+                <button onmouseover="changeImage('../img/jaipur.jpg')">JAIPUR</button>
+
+                <button onmouseover="changeImage('../img/udaipur.jpg')">UDAIPUR</button>
+
+                <button onmouseover="changeImage('../img/bengaluru.jpg')">BENGALURU</button>
+
+                <button onmouseover="changeImage('../img/chennai.jpg')">CHENNAI</button>
+
+                <button onmouseover="changeImage('../img/ashtamudi.jpg')">ASHTAMUDI</button>
+
+                <button onmouseover="changeImage('../img/kovalam.jpg')">KOVALAM</button>
+
+                <button onmouseover="changeImage('../img/hyderabad.jpg')">HYDERABAD</button>
+
+            </div>
+
+        </div>
+
+    </div>
+ 
+
+</section>
+
+<!-- Offer Details Table -->
+ <section>
+<div class="max-w-7xl mx-auto px-4 lg:px-8 py-10">
+
+    <div class="overflow-x-auto">
+
+        <table class="min-w-[1100px] w-full border border-[#d2b37a] text-center">
+
+            <!-- Header -->
+            <thead class="bg-[#BE9552] text-white">
+
+                <tr>
+
+                    <th class="border border-[#d2b37a] px-4 py-6">
+                        <h2 class="text-2xl lg:text-3xl font-serif">
+                            No. of Nights
+                        </h2>
+
+                        <p class="text-sm lg:text-lg mt-2">
+                            For Double Occupancy
+                        </p>
+                    </th>
+
+                    <th class="border border-[#d2b37a] px-4 py-6">
+                        <h2 class="text-2xl lg:text-3xl font-serif">
+                            Winter
+                        </h2>
+
+                        <p class="text-sm lg:text-lg mt-2">
+                            Oct 1, 2025 - Mar 31, 2026<br>
+                            (per night rates)
+                        </p>
+                    </th>
+
+                    <th class="border border-[#d2b37a] px-4 py-6">
+                        <h2 class="text-2xl lg:text-3xl font-serif">
+                            Summer
+                        </h2>
+
+                        <p class="text-sm lg:text-lg mt-2">
+                            Apr 1, 2026 - Sep 30, 2026<br>
+                            (per night rates)
+                        </p>
+                    </th>
+
+                    <th class="border border-[#d2b37a] px-4 py-6">
+                        <h2 class="text-2xl lg:text-3xl font-serif">
+                            Winter
+                        </h2>
+
+                        <p class="text-sm lg:text-lg mt-2">
+                            Oct 1, 2026 - Mar 31, 2027<br>
+                            (per night rates)
+                        </p>
+                    </th>
+
+                </tr>
+
+            </thead>
+
+            <!-- Body -->
+            <tbody class="bg-[#F8F4EC] text-base lg:text-xl">
+
+                <tr>
+                    <td class="border px-4 py-5">5 Nights</td>
+                    <td class="border">INR 60,000</td>
+                    <td class="border">INR 33,000</td>
+                    <td class="border">INR 65,000</td>
+                </tr>
+
+                <tr>
+                    <td class="border px-4 py-5">6 Nights</td>
+                    <td class="border">INR 59,000</td>
+                    <td class="border">INR 32,000</td>
+                    <td class="border">INR 64,000</td>
+                </tr>
+
+                <tr>
+                    <td class="border px-4 py-5">7 Nights</td>
+                    <td class="border">INR 58,500</td>
+                    <td class="border">INR 31,500</td>
+                    <td class="border">INR 63,500</td>
+                </tr>
+
+                <tr>
+                    <td class="border px-4 py-5">8 Nights</td>
+                    <td class="border">INR 58,000</td>
+                    <td class="border">INR 31,000</td>
+                    <td class="border">INR 63,000</td>
+                </tr>
+
+                <tr>
+                    <td class="border px-4 py-5">9 Nights</td>
+                    <td class="border">INR 57,500</td>
+                    <td class="border">INR 30,500</td>
+                    <td class="border">INR 62,500</td>
+                </tr>
+
+                <tr>
+                    <td class="border px-4 py-5">10 Nights</td>
+                    <td class="border">INR 57,000</td>
+                    <td class="border">INR 30,000</td>
+                    <td class="border">INR 62,000</td>
+                </tr>
+
+                <tr>
+                    <td class="border px-4 py-5">11 Nights</td>
+                    <td class="border">INR 56,500</td>
+                    <td class="border">INR 29,500</td>
+                    <td class="border">INR 61,500</td>
+                </tr>
+
+                <tr>
+                    <td class="border px-4 py-5">12 Nights</td>
+                    <td class="border">INR 56,000</td>
+                    <td class="border">INR 29,000</td>
+                    <td class="border">INR 61,000</td>
+                </tr>
+
+                <tr>
+                    <td class="border px-4 py-5">13 Nights</td>
+                    <td class="border">INR 55,500</td>
+                    <td class="border">INR 28,500</td>
+                    <td class="border">INR 60,500</td>
+                </tr>
+
+                <tr>
+                    <td class="border px-4 py-5">14 Nights</td>
+                    <td class="border">INR 55,000</td>
+                    <td class="border">INR 28,000</td>
+                    <td class="border">INR 60,000</td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+</div>
+
+</section>
+
+
+   <section class="max-w-7xl mx-auto px-4 lg:px-0 py-10">
+
+    <div class="grid grid-cols-1 lg:grid-cols-2 border border-[#c79d5b]">
+
+        <!-- Left -->
+        <div class="p-6 lg:p-8 border-b lg:border-b-0 lg:border-r border-[#c79d5b]">
+
+            <h2 class="text-xl font-semibold text-gray-800 mb-6">
+                Signature Inclusions:
+            </h2>
+
+            <ul class="list-disc pl-6 space-y-3 text-gray-700 text-base leading-8">
+
+                <li>Accommodation in premium room categories across participating Leela Palaces</li>
+
+                <li>Daily breakfast served either in the comfort of your room or at our all-day dining venues</li>
+
+                <li>Airport transfers in a luxury sedan, complete with curated amenities</li>
+
+                <li>A warm welcome reception upon arrival at the airport</li>
+
+                <li>The Leela Palace Service, featuring a dedicated personal butler throughout your stay</li>
+
+                <li>Evening cocktails paired with an immersive Art Walk experience</li>
+
+                <li>Exclusive 25% savings on spa therapies, culinary indulgences (food and soft beverages), and laundry services</li>
+
+                <li>Cultural immersion through signature evening ceremonial rituals</li>
+
+                <li>Personalized turn-down amenities</li>
+
+                <li>Complimentary pressing of up to four garments per day</li>
+
+                <li>Confirmed early check-in at 10:00 AM and late check-out at 4:00 PM</li>
+
+            </ul>
+
+        </div>
+
+        <!-- Right -->
+        <div class="p-6 lg:p-8">
+
+            <h2 class="text-xl font-semibold text-gray-800 mb-2">
+                Enhanced Inclusions
+                <span class="font-normal text-lg">
+                    (available in addition to the above, based on length of stay):
+                </span>
+            </h2>
+
+            <ul class="list-disc pl-6 space-y-4 text-gray-700 text-base leading-8">
+
+                <li>
+                    <strong>Stay of 5 Nights</strong>
+                    <ul class="pl-6 list-none">
+                        <li>- One rejuvenating spa experience at a hotel of your choice</li>
+                    </ul>
+                </li>
+
+                <li>
+                    <strong>Stay of 6–7 Nights</strong>
+                    <ul class="pl-6 list-none">
+                        <li>- One rejuvenating spa experience at a hotel of your choice</li>
+                        <li>- One bespoke curated dining experience</li>
+                    </ul>
+                </li>
+
+                <li>
+                    <strong>Stay of 8–9 Nights</strong>
+                    <ul class="pl-6 list-none">
+                        <li>- One rejuvenating spa experience at a hotel of your choice</li>
+                        <li>- Two bespoke curated dining experiences</li>
+                    </ul>
+                </li>
+
+                <li>
+                    <strong>Stay of 10 Nights or more</strong>
+                    <ul class="pl-6 list-none">
+                        <li>- Two rejuvenating spa experiences at a hotel of your choice</li>
+                        <li>- Two bespoke curated dining experiences</li>
+                    </ul>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Enquiry Form -->
+<section id="enquiry" class="bg-[#f8f5ef] py-16 px-5">
+
+    <div class="max-w-7xl mx-auto">
+
+        <!-- Radio Buttons -->
+        <div class="flex justify-center gap-10 flex-wrap">
+
+            <label class="flex items-center gap-2 text-lg">
+                <input type="radio" name="trip" checked class="accent-[#b17a45] w-5 h-5">
+                I know my Itinerary
+            </label>
+
+            <label class="flex items-center gap-2 text-lg">
+                <input type="radio" name="trip" class="accent-[#b17a45] w-5 h-5">
+                Help me build my itinerary
+            </label>
+
+        </div>
+
+        <p class="text-center mt-5 text-lg text-gray-700">
+            Select minimum 5 nights to send an enquiry
+        </p>
+
+        <!-- Form -->
+        <form class="bg-white mt-10 p-8 shadow">
+
+            <!-- Row 1 -->
+            <div class="grid lg:grid-cols-4 md:grid-cols-2 gap-5">
+
+                <!-- Hotel -->
+                <select
+                    class="border p-4 outline-none">
+
+                    <option>Select Hotel*</option>
+                    <option>The Leela Palace New Delhi</option>
+                    <option>The Leela Palace Jaipur</option>
+                    <option>The Leela Palace Udaipur</option>
+                    <option>The Leela Palace Bengaluru</option>
+                    <option>The Leela Palace Chennai</option>
+                    <option>The Leela Hyderabad</option>
+                    <option>The Leela Ashtamudi</option>
+                    <option>The Leela Kovalam</option>
+
+                </select>
+
+                <!-- Dates -->
+                <div class="border p-4">
+
+                    <label class="text-xs text-gray-500 block">
+                        Travel Duration
+                    </label>
+
+                    <div class="flex gap-2 mt-1">
+
+                        <input type="date"
+                            class="w-1/2 outline-none">
+
+                        <input type="date"
+                            class="w-1/2 outline-none">
+
+                    </div>
+
+                </div>
+
+                <!-- Rooms -->
+                <select
+                    class="border p-4 outline-none">
+
+                    <option>Number of Rooms*</option>
+                    <option>1 Room</option>
+                    <option>2 Rooms</option>
+                    <option>3 Rooms</option>
+                    <option>4 Rooms</option>
+
+                </select>
+
+                <!-- Guests -->
+                <select
+                    class="border p-4 outline-none">
+
+                    <option>No. of Guests</option>
+                    <option>2 Adults</option>
+                    <option>2 Adults + 1 Child</option>
+                    <option>2 Adults + 2 Children</option>
+                    <option>3 Adults</option>
+                    <option>4 Adults</option>
+
+                </select>
+
+            </div>
+
+            <!-- Second Hotel -->
+            <div class="grid lg:grid-cols-4 md:grid-cols-2 gap-5 mt-5">
+
+                <select
+                    class="border p-4 outline-none">
+
+                    <option>Select Hotel*</option>
+                    <option>The Leela Palace New Delhi</option>
+                    <option>The Leela Palace Jaipur</option>
+                    <option>The Leela Palace Udaipur</option>
+                    <option>The Leela Palace Bengaluru</option>
+                    <option>The Leela Palace Chennai</option>
+                    <option>The Leela Hyderabad</option>
+                    <option>The Leela Ashtamudi</option>
+                    <option>The Leela Kovalam</option>
+
+                </select>
+
+                <div class="border p-4">
+
+                    <label class="text-xs text-gray-500 block">
+                        Travel Duration
+                    </label>
+
+                    <div class="flex gap-2 mt-1">
+
+                        <input type="date"
+                            class="w-1/2 outline-none">
+
+                        <input type="date"
+                            class="w-1/2 outline-none">
+
+                    </div>
+
+                </div>
+
+                <select
+                    class="border p-4 outline-none">
+
+                    <option>Number of Rooms*</option>
+                    <option>1 Room</option>
+                    <option>2 Rooms</option>
+                    <option>3 Rooms</option>
+
+                </select>
+
+                <select
+                    class="border p-4 outline-none">
+
+                    <option>No. of Guests</option>
+                    <option>2 Adults</option>
+                    <option>2 Adults + 1 Child</option>
+                    <option>2 Adults + 2 Children</option>
+                    <option>3 Adults</option>
+
+                </select>
+
+            </div>
+
+            <!-- Button -->
+            <button
+                type="button"
+                class="bg-[#b17a45] text-white px-10 py-4 mt-8 rounded-lg text-3xl font-serif hover:bg-[#99653a]">
+
+                + Add Hotel
+
+            </button>
+
+            <!-- Personal Details -->
+            <div class="grid lg:grid-cols-4 md:grid-cols-2 gap-5 mt-10">
+
+                <input
+                    type="text"
+                    placeholder="Name*"
+                    class="border p-4 outline-none">
+
+                <input
+                    type="text"
+                    placeholder="Company/Agency"
+                    class="border p-4 outline-none">
+
+                <input
+                    type="email"
+                    placeholder="Email*"
+                    class="border p-4 outline-none">
+
+                <div class="flex border">
+
+                    <select
+                        class="w-1/2 p-4 outline-none border-r">
+
+                        <option>Country</option>
+                        <option>India</option>
+                        <option>USA</option>
+                        <option>UK</option>
+                        <option>Canada</option>
+
+                    </select>
+
+                    <input
+                        type="tel"
+                        placeholder="Phone*"
+                        class="w-1/2 p-4 outline-none">
+
+                </div>
+
+            </div>
+
+            <!-- Message -->
+            <textarea
+                rows="5"
+                placeholder="Your Message"
+                class="border w-full p-4 mt-5 outline-none"></textarea>
+
+            <!-- Checkbox -->
+            <div class="flex items-center gap-3 mt-6">
+
+                <input
+                    type="checkbox"
+                    class="w-6 h-6">
+
+                <label class="text-lg">
+                    I agree to receive updates, offers, via SMS, RCS & WhatsApp.
+                </label>
+
+            </div>
+
+            <!-- Submit -->
+            <div class="text-center mt-10">
+
+                <button
+                    class="bg-[#b17a45] text-white px-20 py-4 rounded-lg text-3xl font-serif hover:bg-[#99653a]">
+
+                    SUBMIT
+
+                </button>
+
+            </div>
+
+        </form>
+
+    </div>
+
+</section>
+
+
+<footer class="bg-[#3d3d3d] text-white mt-16">
+    <div class="max-w-7xl mx-auto px-6 py-14">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+            <div class="space-y-4 text-[15px]">
+                <a href="test.html" class="block hover:text-[#c8a24d]">About Us</a>
+                <a href="magazine.html" class="block hover:text-[#c8a24d]">The Leela Magazine</a>
+                <a href="press-room.html" class="block hover:text-[#c8a24d]">Press Room</a>
+                <a href="gift-card.html" class="block hover:text-[#c8a24d]">Gift Card</a>
+                <a href="connoisseur-club.html" class="block hover:text-[#c8a24d]">Connoisseur Club</a>
+            </div>
+            <div class="space-y-4 text-[15px]">
+                <a href="awards.html" class="block hover:text-[#c8a24d]">Awards</a>
+                <a href="careers.html" class="block hover:text-[#c8a24d]">Careers</a>
+                <a href="manage-reservations.html" class="block hover:text-[#c8a24d]">Manage Reservations</a>
+                <a href="best-rate-guarantee.html" class="block hover:text-[#c8a24d]">Best Rate Guarantee</a>
+                <a href="mahatma-mandir.html" class="block hover:text-[#c8a24d]">Mahatma Mandir Convention and Exhibition Centre</a>
+            </div>
+            <div class="space-y-4 text-[15px]">
+                <a href="sustainability.html" class="block hover:text-[#c8a24d]">Sustainability</a>
+                <a href="travel-diaries.html" class="block hover:text-[#c8a24d]">Travel Diaries</a>
+                <a href="loyalty.html" class="block hover:text-[#c8a24d]">Loyalty</a>
+                <a href="contact.html" class="block hover:text-[#c8a24d]">Contact Us</a>
+            </div>
+            <div>
+                <h2 class="text-2xl font-serif mb-6">Subscribe to Newsletter</h2>
+                <div class="flex">
+                    <input type="email" placeholder="Enter your email" class="w-full bg-transparent border border-[#c8a24d] border-r-0 px-4 py-3 outline-none placeholder-gray-300">
+                    <button class="bg-[#b07a45] px-6 hover:bg-[#94633a] transition">→</button>
+                </div>
+                <h3 class="text-2xl font-serif mt-10 mb-5">Follow Us</h3>
+                <div class="flex gap-5 text-2xl">
+                    <a href="#" class="hover:text-[#c8a24d]">📷</a>
+                    <a href="#" class="hover:text-[#c8a24d]">𝕏</a>
+                    <a href="#" class="hover:text-[#c8a24d]">▶</a>
+                    <a href="#" class="hover:text-[#c8a24d]">f</a>
+                    <a href="#" class="hover:text-[#c8a24d]">in</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="border-t border-gray-600"></div>
+    <div class="max-w-7xl mx-auto px-6 py-6">
+        <p class="text-sm text-gray-300 leading-7 text-center lg:text-left">
+            <span class="font-semibold text-white">Investors:</span>
+            Leela Palaces Hotels & Resorts Limited (Equity) |
+            Moonburg Power Private Limited (Debt) |
+            Tulsi Palace Resort Private Limited (Debt) |
+            Investor Queries & Grievance
+        </p>
+    </div>
+    <div class="border-t border-gray-600"></div>
+    <div class="max-w-7xl mx-auto px-6 py-6 flex flex-col lg:flex-row justify-between items-center gap-5">
+        <p class="text-sm text-gray-300 text-center lg:text-left">©2026 The Leela Palaces, Hotels & Resorts. All Rights Reserved.</p>
+        <div class="flex flex-wrap justify-center gap-3 text-sm text-gray-300">
+            <a href="#" class="hover:text-[#c8a24d]">Privacy Policy</a><span>|</span>
+            <a href="#" class="hover:text-[#c8a24d]">Legal</a><span>|</span>
+            <a href="#" class="hover:text-[#c8a24d]">Terms & Conditions</a><span>|</span>
+            <a href="#" class="hover:text-[#c8a24d]">Cookie Preferences</a><span>|</span>
+            <a href="#" class="hover:text-[#c8a24d]">Security Alert</a>
+        </div>
+    </div>
+</footer>
+
+</body>

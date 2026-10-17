@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<title>Loyalty | LEELA</title>
+</head>
+<body class="bg-[#fbfaf3]">
+
+<header class="fixed top-0 left-0 w-full z-50 bg-[#F8F4EB] shadow-sm">
+    <nav class="max-w-[1600px] mx-auto h-20 md:h-24 px-4 md:px-8 flex items-center justify-between">
+        <div class="flex items-center gap-4 lg:gap-10">
+            <input type="checkbox" id="menu-toggle" class="hidden peer">
+            <label for="menu-toggle" class="text-3xl cursor-pointer hover:text-[#9D6C43]">☰</label>
+
+            <div class="fixed top-0 left-[-100%] peer-checked:left-0 w-72 h-screen bg-[#F8F4EB] shadow-xl z-[999] transition-all duration-300">
+                <div class="flex justify-end p-6">
+                    <label for="menu-toggle" class="text-4xl cursor-pointer">✕</label>
+                </div>
+                <nav class="flex flex-col">
+                    <a href="../Index.html" class="px-6 py-4 border-b hover:bg-gray-100">Home</a>
+                    <div class="relative group border-b">
+                        <button class="w-full flex justify-between items-center px-6 py-4 hover:bg-gray-100">
+                            Hotels <span>▼</span>
+                        </button>
+                        <div class="hidden group-hover:block bg-[#F8F4EC] shadow-md">
+                            <a href="leelamumbai.html" class="block px-8 py-3 hover:bg-gray-100">The Leela Mumbai</a>
+                            <a href="leeladelhi.html" class="block px-8 py-3 hover:bg-gray-100">The Leela Palace New Delhi</a>
+                            <a href="bengaluru.html" class="block px-8 py-3 hover:bg-gray-100">The Leela Palace Bengaluru</a>
+                            <a href="chennai.html" class="block px-8 py-3 hover:bg-gray-100">The Leela Palace Chennai</a>
+                            <a href="jaipur.html" class="block px-8 py-3 hover:bg-gray-100">The Leela Palace Jaipur</a>
+                        </div>
+                    </div>
+                    <a href="experience.html" class="px-6 py-4 border-b hover:bg-gray-100">Experiences</a>
+                    <a href="offers.html" class="px-6 py-4 border-b hover:bg-gray-100">Offers</a>
+                    <a href="contact.html" class="px-6 py-4 border-b hover:bg-gray-100">Contact Us</a>
+                    <a href="Login.html" class="px-6 py-4 border-b hover:bg-gray-100">Login</a>
+                    <a href="Booking.html" class="mx-6 mt-8 text-center py-3 bg-[#9D6C43] text-white hover:bg-[#835734] transition">BOOK</a>
+                </nav>
+            </div>
+
+            <ul class="hidden lg:flex items-center gap-10 text-[18px] text-[#222]">
+                <li class="relative group">
+                    <a href="Nav_bar.html#hotels" class="flex items-center gap-1 py-8 hover:text-[#9D6C43] transition">Hotels <span class="text-xs">▼</span></a>
+                </li>
+                <li><a href="experience.html" class="hover:text-[#9D6C43] transition">Experiences</a></li>
+                <li><a href="offers.html" class="hover:text-[#9D6C43] transition">Offers</a></li>
+            </ul>
+        </div>
+
+        <div class="absolute left-1/2 -translate-x-1/2 text-center">
+            <h1 class="text-xl sm:text-2xl md:text-4xl tracking-[0.25em] md:tracking-[0.35em]" style="font-family:'Cinzel',serif;">LEELA</h1>
+            <p class="hidden sm:block text-[8px] md:text-[11px] uppercase tracking-[0.3em] text-gray-600">PALACES • HOTELS • RESORTS</p>
+        </div>
+
+        <div class="flex items-center gap-2 sm:gap-4 md:gap-8">
+            <a href="Login.html" class="hidden sm:flex items-center gap-1 sm:gap-2 hover:text-[#9D6C43] transition">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor" class="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6.75a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.5 20.118a7.5 7.5 0 0115 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.5-1.632z"/>
+                </svg>
+                <span class="text-sm md:text-lg">Login</span>
+            </a>
+            <a href="Booking.html" class="bg-[#9D6C43] hover:bg-[#7f5636] text-white px-3 sm:px-5 md:px-10 py-2 sm:py-2.5 md:py-3 text-xs sm:text-sm md:text-base tracking-widest uppercase whitespace-nowrap">Book</a>
+        </div>
+    </nav>
+</header>
+
+<section class="pt-32 md:pt-40 pb-16 md:pb-20 bg-[#F8F4EB]">
+    <div class="max-w-5xl mx-auto px-6 text-center">
+        <p class="uppercase tracking-[0.35em] text-[#9D6C43] text-sm mb-5">Leela DISCOVERY</p>
+        <h1 class="text-4xl md:text-6xl font-serif text-[#3d3d3d]" style="font-family:'Cinzel',serif;">Loyalty &amp; Rewards</h1>
+        <div class="flex items-center justify-center mt-8">
+            <div class="w-24 h-[1px] bg-[#c8a24d]"></div>
+            <span class="mx-4 text-2xl text-[#c8a24d]">❦</span>
+            <div class="w-24 h-[1px] bg-[#c8a24d]"></div>
+        </div>
+        <p class="mt-8 text-gray-600 leading-8 max-w-3xl mx-auto text-base md:text-lg">
+            Elevating relationships with extraordinary benefits. As a Leela DISCOVERY member,
+            enjoy up to 20% savings, complimentary breakfast, and DISCOVERY Dollars Rewards.
+        </p>
+    </div>
+</section>
+
+<section class="max-w-6xl mx-auto px-6 py-16">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-white border border-[#e5ddd0] p-8 text-center">
+            <h3 class="text-xl font-serif text-[#3d3d3d] mb-3">Up to 20% Savings</h3>
+            <p class="text-gray-600 leading-7">Enjoy exclusive member rates across our Leela properties.</p>
+        </div>
+        <div class="bg-white border border-[#e5ddd0] p-8 text-center">
+            <h3 class="text-xl font-serif text-[#3d3d3d] mb-3">Complimentary Breakfast</h3>
+            <p class="text-gray-600 leading-7">Start every stay with breakfast on us.</p>
+        </div>
+        <div class="bg-white border border-[#e5ddd0] p-8 text-center">
+            <h3 class="text-xl font-serif text-[#3d3d3d] mb-3">DISCOVERY Dollars</h3>
+            <p class="text-gray-600 leading-7">Earn rewards with every stay to redeem on future visits.</p>
+        </div>
+    </div>
+    <div class="text-center mt-14">
+        <a href="Login.html" class="inline-block bg-[#9D6C43] hover:bg-[#7d5537] text-white px-10 py-4 uppercase tracking-widest transition">Sign In</a>
+    </div>
+</section>
+
+<footer class="bg-[#3d3d3d] text-white mt-16">
+    <div class="max-w-7xl mx-auto px-6 py-14">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+            <div class="space-y-4 text-[15px]">
+                <a href="test.html" class="block hover:text-[#c8a24d]">About Us</a>
+                <a href="magazine.html" class="block hover:text-[#c8a24d]">The Leela Magazine</a>
+                <a href="press-room.html" class="block hover:text-[#c8a24d]">Press Room</a>
+                <a href="gift-card.html" class="block hover:text-[#c8a24d]">Gift Card</a>
+                <a href="connoisseur-club.html" class="block hover:text-[#c8a24d]">Connoisseur Club</a>
+            </div>
+            <div class="space-y-4 text-[15px]">
+                <a href="awards.html" class="block hover:text-[#c8a24d]">Awards</a>
+                <a href="careers.html" class="block hover:text-[#c8a24d]">Careers</a>
+                <a href="manage-reservations.html" class="block hover:text-[#c8a24d]">Manage Reservations</a>
+                <a href="best-rate-guarantee.html" class="block hover:text-[#c8a24d]">Best Rate Guarantee</a>
+                <a href="mahatma-mandir.html" class="block hover:text-[#c8a24d]">Mahatma Mandir Convention and Exhibition Centre</a>
+            </div>
+            <div class="space-y-4 text-[15px]">
+                <a href="sustainability.html" class="block hover:text-[#c8a24d]">Sustainability</a>
+                <a href="travel-diaries.html" class="block hover:text-[#c8a24d]">Travel Diaries</a>
+                <a href="loyalty.html" class="block hover:text-[#c8a24d]">Loyalty</a>
+                <a href="contact.html" class="block hover:text-[#c8a24d]">Contact Us</a>
+            </div>
+            <div>
+                <h2 class="text-2xl font-serif mb-6">Subscribe to Newsletter</h2>
+                <div class="flex">
+                    <input type="email" placeholder="Enter your email" class="w-full bg-transparent border border-[#c8a24d] border-r-0 px-4 py-3 outline-none placeholder-gray-300">
+                    <button class="bg-[#b07a45] px-6 hover:bg-[#94633a] transition">→</button>
+                </div>
+                <h3 class="text-2xl font-serif mt-10 mb-5">Follow Us</h3>
+                <div class="flex gap-5 text-2xl">
+                    <a href="#" class="hover:text-[#c8a24d]">📷</a>
+                    <a href="#" class="hover:text-[#c8a24d]">𝕏</a>
+                    <a href="#" class="hover:text-[#c8a24d]">▶</a>
+                    <a href="#" class="hover:text-[#c8a24d]">f</a>
+                    <a href="#" class="hover:text-[#c8a24d]">in</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="border-t border-gray-600"></div>
+    <div class="max-w-7xl mx-auto px-6 py-6">
+        <p class="text-sm text-gray-300 leading-7 text-center lg:text-left">
+            <span class="font-semibold text-white">Investors:</span>
+            Leela Palaces Hotels & Resorts Limited (Equity) |
+            Moonburg Power Private Limited (Debt) |
+            Tulsi Palace Resort Private Limited (Debt) |
+            Investor Queries & Grievance
+        </p>
+    </div>
+    <div class="border-t border-gray-600"></div>
+    <div class="max-w-7xl mx-auto px-6 py-6 flex flex-col lg:flex-row justify-between items-center gap-5">
+        <p class="text-sm text-gray-300 text-center lg:text-left">©2026 The Leela Palaces, Hotels & Resorts. All Rights Reserved.</p>
+        <div class="flex flex-wrap justify-center gap-3 text-sm text-gray-300">
+            <a href="#" class="hover:text-[#c8a24d]">Privacy Policy</a><span>|</span>
+            <a href="#" class="hover:text-[#c8a24d]">Legal</a><span>|</span>
+            <a href="#" class="hover:text-[#c8a24d]">Terms & Conditions</a><span>|</span>
+            <a href="#" class="hover:text-[#c8a24d]">Cookie Preferences</a><span>|</span>
+            <a href="#" class="hover:text-[#c8a24d]">Security Alert</a>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

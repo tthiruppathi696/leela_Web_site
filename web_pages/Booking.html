@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Booking</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+
+<body class="bg-[#F8F4EB] min-h-screen flex items-center justify-center">
+
+<div class="bg-white shadow-2xl rounded-lg w-full max-w-2xl p-10">
+
+    <!-- Logo -->
+
+    <div class="text-center mb-10">
+
+        <h1 class="text-5xl tracking-[0.35em]"
+            style="font-family:Cinzel,serif;">
+            LEELA
+        </h1>
+
+        <p class="uppercase tracking-[0.45em] text-xs text-gray-500 mt-2">
+            PALACES • HOTELS • RESORTS
+        </p>
+
+        <h2 class="text-3xl mt-8 font-serif">
+            Book Your Stay
+        </h2>
+
+    </div>
+
+    <form>
+
+        <!-- Hotel -->
+
+        <div class="mb-6">
+
+            <label class="block mb-2 font-medium">
+                Hotel
+            </label>
+
+            <select
+            class="w-full border border-gray-300 p-3 focus:outline-none">
+
+                <option>Select Hotel</option>
+                <option>The Leela Palace Jaipur</option>
+                <option>The Leela Palace Bengaluru</option>
+                <option>The Leela Palace New Delhi</option>
+                <option>The Leela Palace Udaipur</option>
+                <option>The Leela Mumbai</option>
+
+            </select>
+
+        </div>
+
+        <!-- Dates -->
+
+        <div class="grid md:grid-cols-2 gap-6">
+
+            <div>
+
+                <label class="block mb-2 font-medium">
+                    Check-in
+                </label>
+
+                <input type="date"
+                class="w-full border p-3">
+
+            </div>
+
+            <div>
+
+                <label class="block mb-2 font-medium">
+                    Check-out
+                </label>
+
+                <input type="date"
+                class="w-full border p-3">
+
+            </div>
+
+        </div>
+
+        <!-- Guests -->
+
+        <div class="mt-6">
+
+            <label class="block mb-2 font-medium">
+                Rooms & Guests
+            </label>
+
+            <select
+            class="w-full border p-3">
+
+                <option>1 Room, 2 Adults</option>
+                <option>1 Room, 3 Adults</option>
+                <option>2 Rooms, 4 Adults</option>
+
+            </select>
+
+        </div>
+
+        <!-- Promo -->
+
+        <div class="mt-6">
+
+            <label class="block mb-2 font-medium">
+                Promo Code
+            </label>
+
+            <input
+            type="text"
+            placeholder="Enter Promo Code"
+            class="w-full border p-3">
+
+        </div>
+
+        <!-- Button -->
+
+        <div class="text-center mt-10">
+
+            <button
+            class="bg-[#9D6C43] hover:bg-[#7f5636] text-white px-16 py-4 uppercase tracking-widest">
+
+                Book
+
+            </button>
+
+            <p class="text-[#9D6C43] mt-4">
+
+                ✓ Best Rate Guarantee
+
+            </p>
+
+        </div>
+
+    </form>
+
+    <!-- Back -->
+
+    <div class="text-center mt-10">
+
+        <a href="../Index.html"
+        class="text-[#9D6C43] hover:underline">
+
+            ← Back to Home
+
+        </a>
+
+    </div>
+
+</div>
+
+</body>
+</html>

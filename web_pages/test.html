@@ -1,0 +1,1147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <title>About Us | The Leela Inspired</title>
+
+    
+
+    <style>
+
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .serif {
+            font-family: 'Playfair Display', serif;
+        }
+
+        .cinzel {
+            font-family: 'Cinzel', serif;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+    </style>
+
+</head>
+
+
+<body class="bg-[#F8F4EB] text-[#292929]">
+
+
+<!-- ========================================================= -->
+<!-- NAVBAR -->
+<!-- ========================================================= -->
+
+<header class="fixed top-0 left-0 w-full z-50 bg-[#F8F4EB]/95 backdrop-blur-md shadow-sm">
+
+    <nav class="max-w-[1600px] mx-auto h-20 md:h-24 px-5 md:px-10 flex items-center justify-between">
+
+        <!-- Left -->
+        <div class="flex items-center gap-4 lg:gap-10">
+
+            <!-- Menu -->
+             <input type="checkbox" id="menu-toggle" class="hidden peer">
+
+       <label for="menu-toggle"
+       class="text-3xl cursor-pointer hover:text-[#9D6C43]">
+           ☰
+        </label>
+
+        <!-- Sidebar -->
+<div
+class="fixed top-0 left-[-100%]
+peer-checked:left-0
+w-72 h-screen  bg-[#F8F4EB]  shadow-xl
+z-[999] transition-all duration-300">
+
+    <!-- Close -->
+    <div class="flex justify-end p-6">
+        <label for="menu-toggle"
+               class="text-4xl cursor-pointer">
+            ✕
+        </label>
+    </div>
+<nav class="flex flex-col">
+
+    <!-- Home -->
+    <a href="../Index.html"
+       class="px-6 py-4 border-b hover:bg-gray-100">
+        Home
+    </a>
+
+    <!-- Hotels Dropdown -->
+    <div class="relative group border-b">
+
+        <button
+            class="w-full flex justify-between items-center px-6 py-4 hover:bg-gray-100">
+            Hotels
+            <span>▼</span>
+        </button>
+
+        <!-- Dropdown -->
+        <div
+            class="hidden group-hover:block bg-[#F8F4EC] shadow-md">
+
+            <a href="leelamumbai.html"
+               class="block px-8 py-3 hover:bg-gray-100">
+                The Leela Mumbai
+            </a>
+
+            <a href="leeladelhi.html"
+               class="block px-8 py-3 hover:bg-gray-100">
+                The Leela Palace New Delhi
+            </a>
+
+            <a href="bengaluru.html"
+               class="block px-8 py-3 hover:bg-gray-100">
+                The Leela Palace Bengaluru
+            </a>
+
+            <a href="chennai.html"
+               class="block px-8 py-3 hover:bg-gray-100">
+                The Leela Palace Chennai
+            </a>
+
+            <a href="jaipur.html"
+               class="block px-8 py-3 hover:bg-gray-100">
+                The Leela Palace Jaipur
+            </a>
+
+        </div>
+
+    </div>
+
+    <!-- Experiences -->
+    <a href="experience.html"
+       class="px-6 py-4 border-b hover:bg-gray-100">
+        Experiences
+    </a>
+
+    <!-- Offers -->
+    <a href="offers.html"
+       class="px-6 py-4 border-b hover:bg-gray-100">
+        Offers
+    </a>
+
+    <!-- Contact -->
+    <a href="contact.html"
+       class="px-6 py-4 border-b hover:bg-gray-100">
+        Contact Us
+    </a>
+
+    <!-- Book -->
+    <a href="Booking.html"
+       class="mx-6 mt-8 text-center py-3 bg-[#9D6C43] text-white hover:bg-[#835734] transition">
+        BOOK
+    </a>
+
+</nav>
+
+</div>
+
+
+            <!-- DESKTOP LINKS -->
+
+            <ul class="hidden lg:flex items-center gap-10 ml-10 text-[17px]">
+
+                <li class="group relative">
+
+                    <a href="#"
+                       class="py-8 flex items-center gap-2 hover:text-[#9D6C43]">
+
+                        Hotels
+
+                        <span class="text-xs">▼</span>
+
+                    </a>
+
+
+                    <!-- HOTEL DROPDOWN -->
+
+                    <div class="absolute left-0 top-full w-[900px]
+                                bg-[#F8F4EB]
+                                shadow-xl
+                                opacity-0 invisible
+                                group-hover:opacity-100
+                                group-hover:visible
+                                transition-all duration-300">
+
+                        <div class="grid grid-cols-4 gap-8 p-10">
+
+                            <div>
+
+                                <h3 class="serif text-xl mb-5">
+                                    Destinations
+                                </h3>
+
+                                <p class="mb-3 hover:text-[#9D6C43]">
+                                    Bengaluru
+                                </p>
+
+                                <p class="mb-3 hover:text-[#9D6C43]">
+                                    Jaipur
+                                </p>
+
+                                <p class="mb-3 hover:text-[#9D6C43]">
+                                    Chennai
+                                </p>
+
+                                <p class="mb-3 hover:text-[#9D6C43]">
+                                    Udaipur
+                                </p>
+
+                            </div>
+
+
+                            <div>
+
+                                <h3 class="serif text-xl mb-5">
+                                    Palaces
+                                </h3>
+
+                                <p class="mb-3">
+                                    The Palace Bengaluru
+                                </p>
+
+                                <p class="mb-3">
+                                    The Palace Jaipur
+                                </p>
+
+                                <p class="mb-3">
+                                    The Palace Chennai
+                                </p>
+
+                                <p class="mb-3">
+                                    The Palace Udaipur
+                                </p>
+
+                            </div>
+
+
+                            <div>
+
+                                <h3 class="serif text-xl mb-5">
+                                    City Hotels
+                                </h3>
+
+                                <p class="mb-3">
+                                    New Delhi
+                                </p>
+
+                                <p class="mb-3">
+                                    Mumbai
+                                </p>
+
+                                <p class="mb-3">
+                                    Hyderabad
+                                </p>
+
+                                <p class="mb-3">
+                                    Gurugram
+                                </p>
+
+                            </div>
+
+
+                            <div>
+
+                                <h3 class="serif text-xl mb-5">
+                                    Resorts
+                                </h3>
+
+                                <p class="mb-3">
+                                    Coorg
+                                </p>
+
+                                <p class="mb-3">
+                                    Kovalam
+                                </p>
+
+                                <p class="mb-3">
+                                    Ashtamudi
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </li>
+
+
+                <li>
+
+                    <a href="#experiences"
+                       class="hover:text-[#9D6C43] transition">
+
+                        Experiences
+
+                    </a>
+
+                </li>
+
+
+                <li>
+
+                    <a href="#offers"
+                       class="hover:text-[#9D6C43] transition">
+
+                        Offers
+
+                    </a>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+
+
+        <!-- CENTER LOGO -->
+
+        <div class="absolute left-1/2 -translate-x-1/2 text-center">
+
+            <h1 class="cinzel text-xl md:text-3xl tracking-[0.3em]">
+
+                LEELA
+
+            </h1>
+
+            <p class="hidden sm:block text-[8px] md:text-[10px]
+                      tracking-[0.35em] text-gray-500">
+
+                PALACES • HOTELS • RESORTS
+
+            </p>
+
+        </div>
+
+
+
+        <!-- RIGHT -->
+
+        <div class="flex items-center gap-3 md:gap-7">
+
+            <!-- LOGIN -->
+
+            <a href="Login.html"
+               class="hidden lg:flex items-center gap-2 hover:text-[#9D6C43]">
+
+                <svg xmlns="http://www.w3.org/2000/svg"
+                     fill="none"
+                     viewBox="0 0 24 24"
+                     stroke="currentColor"
+                     class="w-6 h-6">
+
+                    <path stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="1.5"
+                          d="M15.75 6.75a3.75 3.75 0 11-7.5 0
+                          3.75 3.75 0 017.5 0zM4.5
+                          20.118a7.5 7.5 0 0115 0A17.933
+                          17.933 0 0112 21.75c-2.676 0
+                          -5.216-.584-7.5-1.632z"/>
+
+                </svg>
+
+                Login
+
+            </a>
+
+
+            <!-- BOOK -->
+
+            <a href="Booking.html"
+               class="bg-[#9D6C43]
+                      text-white
+                      px-5 md:px-9
+                      py-2.5 md:py-3
+                      text-sm md:text-base
+                      tracking-widest
+                      uppercase
+                      hover:bg-[#7d5434]
+                      transition">
+
+                Book
+
+            </a>
+
+        </div>
+
+    </nav>
+
+
+
+    <!-- ===================================================== -->
+    <!-- MOBILE SIDEBAR -->
+    <!-- ===================================================== -->
+
+    <aside class="fixed top-0 left-0
+                  h-screen w-[82%] sm:w-[400px]
+                  bg-[#F8F4EB]
+                  shadow-2xl
+                  -translate-x-full
+                  peer-checked:translate-x-0
+                  transition-transform duration-500
+                  overflow-y-auto
+                  z-[60]">
+
+        <div class="p-7">
+
+            <!-- CLOSE -->
+
+            <label for="menu-toggle"
+                   class="text-3xl cursor-pointer">
+
+                ×
+
+            </label>
+
+
+            <div class="mt-10 space-y-1">
+
+
+                <a href="index.html"
+                   class="block py-4 border-b border-gray-300">
+
+                    Home
+
+                </a>
+
+
+                <!-- HOTELS -->
+
+                <details class="border-b border-gray-300">
+
+                    <summary class="py-4 cursor-pointer">
+                        Hotels
+                    </summary>
+
+                    <div class="pl-5 pb-4 space-y-4 text-gray-600">
+
+                        <a href="#" class="block">
+                            The Palace Bengaluru
+                        </a>
+
+                        <a href="#" class="block">
+                            The Palace Jaipur
+                        </a>
+
+                        <a href="#" class="block">
+                            The Palace Chennai
+                        </a>
+
+                        <a href="#" class="block">
+                            The Palace New Delhi
+                        </a>
+
+                        <a href="#" class="block">
+                            The Palace Udaipur
+                        </a>
+
+                        <a href="#" class="block">
+                            The Leela Mumbai
+                        </a>
+
+                        <a href="#" class="block">
+                            The Leela Hyderabad
+                        </a>
+
+                        <a href="#" class="block">
+                            The Leela Coorg
+                        </a>
+
+                    </div>
+
+                </details>
+
+
+                <a href="#experiences"
+                   class="block py-4 border-b border-gray-300">
+
+                    Experiences
+
+                </a>
+
+
+                <a href="#offers"
+                   class="block py-4 border-b border-gray-300">
+
+                    Offers
+
+                </a>
+
+
+                <a href="#story"
+                   class="block py-4 border-b border-gray-300">
+
+                    Our Story
+
+                </a>
+
+
+                <a href="#sustainability"
+                   class="block py-4 border-b border-gray-300">
+
+                    Sustainability
+
+                </a>
+
+
+                <a href="#contact"
+                   class="block py-4 border-b border-gray-300">
+
+                    Contact Us
+
+                </a>
+
+
+                <a href="Login.html"
+                   class="block py-4 border-b border-gray-300">
+
+                    Login
+
+                </a>
+
+
+                <a href="Booking.html"
+                   class="block text-center mt-7
+                          bg-[#9D6C43]
+                          text-white
+                          py-4">
+
+                    BOOK
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </aside>
+
+</header>
+
+
+
+<!-- ========================================================= -->
+<!-- HERO -->
+<!-- ========================================================= -->
+
+<section class="relative h-[75vh] md:h-[90vh] mt-20">
+
+    <img
+        src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=2000&q=85"
+        class="absolute inset-0 w-full h-full object-cover"
+        alt="Luxury hotel interior">
+
+
+    <div class="absolute inset-0 bg-black/35"></div>
+
+
+    <div class="relative z-10 h-full
+                flex items-center justify-center
+                text-center text-white px-6">
+
+        <div>
+
+            <p class="uppercase tracking-[0.4em] text-sm mb-6">
+
+                Our Story
+
+            </p>
+
+            <h1 class="serif text-5xl md:text-7xl mb-7">
+
+                About Us
+
+            </h1>
+
+            <p class="max-w-2xl mx-auto text-lg md:text-xl font-light">
+
+                A celebration of India's heritage, craftsmanship,
+                hospitality and timeless elegance.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ========================================================= -->
+<!-- INTRODUCTION -->
+<!-- ========================================================= -->
+
+<section id="story"
+         class="max-w-6xl mx-auto px-6 py-20 md:py-28">
+
+    <div class="text-center">
+
+        <p class="uppercase tracking-[0.35em]
+                  text-[#9D6C43] text-sm mb-5">
+
+            Our Heritage
+
+        </p>
+
+
+        <h2 class="serif text-4xl md:text-5xl mb-8">
+
+            A Journey Rooted in India
+
+        </h2>
+
+
+        <p class="text-gray-600 leading-8 max-w-4xl mx-auto">
+
+            Our journey began with a simple vision: to express the
+            richness of Indian hospitality through exceptional
+            spaces, thoughtful service and meaningful experiences.
+            Every destination is designed to reflect the character
+            of its surroundings while welcoming guests with warmth,
+            grace and attention to detail.
+
+        </p>
+
+    </div>
+
+</section>
+
+
+
+<!-- ========================================================= -->
+<!-- HISTORY -->
+<!-- ========================================================= -->
+
+<section class="bg-white py-20 md:py-28">
+
+    <div class="max-w-7xl mx-auto px-6
+                grid md:grid-cols-2 gap-12
+                items-center">
+
+
+        <div class="overflow-hidden">
+
+            <img
+                src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=85"
+                class="w-full h-[450px] object-cover
+                       hover:scale-105 transition duration-700"
+                alt="Luxury hotel">
+
+
+        </div>
+
+
+        <div>
+
+            <p class="uppercase tracking-[0.3em]
+                      text-[#9D6C43] text-sm mb-5">
+
+                The Beginning
+
+            </p>
+
+
+            <h2 class="serif text-4xl md:text-5xl mb-7">
+
+                Crafting Indian Luxury
+
+            </h2>
+
+
+            <p class="text-gray-600 leading-8 mb-6">
+
+                From grand palaces to contemporary city hotels and
+                peaceful resorts, our collection brings together
+                architecture, art, cuisine and culture.
+
+            </p>
+
+
+            <p class="text-gray-600 leading-8">
+
+                Each property tells a different story. The design,
+                rituals, flavours and experiences are shaped by the
+                destination, creating a stay that feels connected
+                to the place.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ========================================================= -->
+<!-- BRAND JOURNEY -->
+<!-- ========================================================= -->
+
+<section class="py-20 md:py-28">
+
+    <div class="max-w-7xl mx-auto px-6">
+
+        <div class="text-center mb-16">
+
+            <p class="uppercase tracking-[0.3em]
+                      text-[#9D6C43] text-sm">
+
+                Our Philosophy
+
+            </p>
+
+            <h2 class="serif text-4xl md:text-5xl mt-4">
+
+                The Art of Hospitality
+
+            </h2>
+
+        </div>
+
+
+        <div class="grid md:grid-cols-3 gap-10">
+
+
+            <!-- CARD -->
+
+            <div class="bg-white p-10 text-center shadow-sm">
+
+                <div class="text-4xl mb-6">
+                    ✦
+                </div>
+
+                <h3 class="serif text-2xl mb-5">
+                    Heritage
+                </h3>
+
+                <p class="text-gray-600 leading-7">
+                    Indian art, architecture and traditions inspire
+                    the character of our spaces.
+                </p>
+
+            </div>
+
+
+            <div class="bg-white p-10 text-center shadow-sm">
+
+                <div class="text-4xl mb-6">
+                    ✧
+                </div>
+
+                <h3 class="serif text-2xl mb-5">
+                    Hospitality
+                </h3>
+
+                <p class="text-gray-600 leading-7">
+                    Thoughtful service creates experiences that feel
+                    personal, warm and memorable.
+                </p>
+
+            </div>
+
+
+            <div class="bg-white p-10 text-center shadow-sm">
+
+                <div class="text-4xl mb-6">
+                    ❋
+                </div>
+
+                <h3 class="serif text-2xl mb-5">
+                    Culture
+                </h3>
+
+                <p class="text-gray-600 leading-7">
+                    Local cuisine, craftsmanship and traditions
+                    become part of every destination.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ========================================================= -->
+<!-- SUSTAINABILITY -->
+<!-- ========================================================= -->
+
+<section id="sustainability"
+         class="bg-[#30302F] text-white py-20 md:py-28">
+
+    <div class="max-w-7xl mx-auto px-6
+                grid md:grid-cols-2 gap-12
+                items-center">
+
+
+        <div>
+
+            <p class="uppercase tracking-[0.3em]
+                      text-[#C9A16B] text-sm mb-5">
+
+                Purposeful Luxury
+
+            </p>
+
+
+            <h2 class="serif text-4xl md:text-5xl mb-7">
+
+                Luxury With Responsibility
+
+            </h2>
+
+
+            <p class="text-gray-300 leading-8 mb-6">
+
+                True luxury extends beyond beautiful surroundings.
+                It means caring for nature, supporting communities
+                and preserving the cultural heritage that makes each
+                destination unique.
+
+            </p>
+
+
+            <a href="#"
+               class="inline-block border border-[#C9A16B]
+                      px-7 py-3
+                      text-[#C9A16B]
+                      hover:bg-[#C9A16B]
+                      hover:text-white
+                      transition">
+
+                Explore Sustainability
+
+            </a>
+
+        </div>
+
+
+        <div>
+
+            <img
+                src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=85"
+                class="w-full h-[400px] object-cover"
+                alt="Nature">
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ========================================================= -->
+<!-- EXPERIENCES -->
+<!-- ========================================================= -->
+
+<section id="experiences"
+         class="py-20 md:py-28">
+
+    <div class="max-w-7xl mx-auto px-6">
+
+        <div class="text-center mb-14">
+
+            <p class="uppercase tracking-[0.3em]
+                      text-[#9D6C43] text-sm">
+
+                Discover
+
+            </p>
+
+            <h2 class="serif text-4xl md:text-5xl mt-4">
+
+                More Than a Stay
+
+            </h2>
+
+        </div>
+
+
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-5">
+
+
+            <div class="relative h-64 overflow-hidden group">
+
+                <img
+                    src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=800&q=80"
+                    class="w-full h-full object-cover
+                           group-hover:scale-110 transition duration-700">
+
+                <div class="absolute inset-0 bg-black/35
+                            flex items-end p-5 text-white">
+
+                    <h3 class="serif text-xl">
+                        Wellness
+                    </h3>
+
+                </div>
+
+            </div>
+
+
+            <div class="relative h-64 overflow-hidden group">
+
+                <img
+                    src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=800&q=80"
+                    class="w-full h-full object-cover
+                           group-hover:scale-110 transition duration-700">
+
+                <div class="absolute inset-0 bg-black/35
+                            flex items-end p-5 text-white">
+
+                    <h3 class="serif text-xl">
+                        Culinary
+                    </h3>
+
+                </div>
+
+            </div>
+
+
+            <div class="relative h-64 overflow-hidden group">
+
+                <img
+                    src="https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=800&q=80"
+                    class="w-full h-full object-cover
+                           group-hover:scale-110 transition duration-700">
+
+                <div class="absolute inset-0 bg-black/35
+                            flex items-end p-5 text-white">
+
+                    <h3 class="serif text-xl">
+                        Celebrations
+                    </h3>
+
+                </div>
+
+            </div>
+
+
+            <div class="relative h-64 overflow-hidden group">
+
+                <img
+                    src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=800&q=80"
+                    class="w-full h-full object-cover
+                           group-hover:scale-110 transition duration-700">
+
+                <div class="absolute inset-0 bg-black/35
+                            flex items-end p-5 text-white">
+
+                    <h3 class="serif text-xl">
+                        Escapes
+                    </h3>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ========================================================= -->
+<!-- OFFERS -->
+<!-- ========================================================= -->
+
+<section id="offers"
+         class="bg-white py-20">
+
+    <div class="max-w-5xl mx-auto px-6 text-center">
+
+        <p class="uppercase tracking-[0.3em]
+                  text-[#9D6C43] text-sm">
+
+            Discover More
+
+        </p>
+
+
+        <h2 class="serif text-4xl md:text-5xl mt-4 mb-6">
+
+            Curated Experiences
+
+        </h2>
+
+
+        <p class="text-gray-600 max-w-2xl mx-auto leading-8">
+
+            Discover stays, culinary experiences, wellness journeys
+            and seasonal offers designed to make every visit memorable.
+
+        </p>
+
+
+        <a href="Booking.html"
+           class="inline-block mt-8
+                  bg-[#9D6C43]
+                  text-white
+                  px-9 py-4
+                  tracking-widest
+                  uppercase
+                  hover:bg-[#7d5434]
+                  transition">
+
+            Book Your Stay
+
+        </a>
+
+    </div>
+
+</section>
+
+
+
+<!-- ========================================================= -->
+<!-- FOOTER -->
+<!-- ========================================================= -->
+
+<footer id="contact" class="bg-[#3d3d3d] text-white mt-16">
+
+    <!-- Top Footer -->
+    <div class="max-w-7xl mx-auto px-6 py-14">
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+
+            <!-- Column 1 -->
+            <div class="space-y-4 text-[15px]">
+                <a href="test.html" class="block hover:text-[#c8a24d]">About Us</a>
+                <a href="magazine.html" class="block hover:text-[#c8a24d]">The Leela Magazine</a>
+                <a href="press-room.html" class="block hover:text-[#c8a24d]">Press Room</a>
+                <a href="gift-card.html" class="block hover:text-[#c8a24d]">Gift Card</a>
+                <a href="connoisseur-club.html" class="block hover:text-[#c8a24d]">Connoisseur Club</a>
+            </div>
+
+            <!-- Column 2 -->
+            <div class="space-y-4 text-[15px]">
+                <a href="awards.html" class="block hover:text-[#c8a24d]">Awards</a>
+                <a href="careers.html" class="block hover:text-[#c8a24d]">Careers</a>
+                <a href="manage-reservations.html" class="block hover:text-[#c8a24d]">Manage Reservations</a>
+                <a href="best-rate-guarantee.html" class="block hover:text-[#c8a24d]">Best Rate Guarantee</a>
+                <a href="mahatma-mandir.html" class="block hover:text-[#c8a24d]">
+                    Mahatma Mandir Convention and Exhibition Centre
+                </a>
+            </div>
+
+            <!-- Column 3 -->
+            <div class="space-y-4 text-[15px]">
+                <a href="sustainability.html" class="block hover:text-[#c8a24d]">Sustainability</a>
+                <a href="travel-diaries.html" class="block hover:text-[#c8a24d]">Travel Diaries</a>
+                <a href="loyalty.html" class="block hover:text-[#c8a24d]">Loyalty</a>
+                <a href="contact.html" class="block hover:text-[#c8a24d]">Contact Us</a>
+            </div>
+
+            <!-- Column 4 -->
+            <div>
+
+                <h2 class="text-2xl font-serif mb-6">
+                    Subscribe to Newsletter
+                </h2>
+
+                <div class="flex">
+
+                    <input
+                        type="email"
+                        placeholder="Enter your email"
+                        class="w-full bg-transparent border border-[#c8a24d] border-r-0 px-4 py-3 outline-none placeholder-gray-300">
+
+                    <button
+                        class="bg-[#b07a45] px-6 hover:bg-[#94633a] transition">
+                        →
+                    </button>
+
+                </div>
+
+                <h3 class="text-2xl font-serif mt-10 mb-5">
+                    Follow Us
+                </h3>
+
+                <div class="flex gap-5 text-2xl">
+
+                    <a href="#" class="hover:text-[#c8a24d]">📷</a>
+                    <a href="#" class="hover:text-[#c8a24d]">𝕏</a>
+                    <a href="#" class="hover:text-[#c8a24d]">▶</a>
+                    <a href="#" class="hover:text-[#c8a24d]">f</a>
+                    <a href="#" class="hover:text-[#c8a24d]">in</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Divider -->
+    <div class="border-t border-gray-600"></div>
+
+    <!-- Investors -->
+    <div class="max-w-7xl mx-auto px-6 py-6">
+
+        <p class="text-sm text-gray-300 leading-7 text-center lg:text-left">
+            <span class="font-semibold text-white">Investors:</span>
+            Leela Palaces Hotels & Resorts Limited (Equity) |
+            Moonburg Power Private Limited (Debt) |
+            Tulsi Palace Resort Private Limited (Debt) |
+            Investor Queries & Grievance
+        </p>
+
+    </div>
+
+    <div class="border-t border-gray-600"></div>
+
+    <!-- Bottom Footer -->
+    <div class="max-w-7xl mx-auto px-6 py-6 flex flex-col lg:flex-row justify-between items-center gap-5">
+
+        <p class="text-sm text-gray-300 text-center lg:text-left">
+            ©2026 The Leela Palaces, Hotels & Resorts. All Rights Reserved.
+        </p>
+
+        <div class="flex flex-wrap justify-center gap-3 text-sm text-gray-300">
+
+            <a href="#" class="hover:text-[#c8a24d]">Privacy Policy</a>
+            <span>|</span>
+
+            <a href="#" class="hover:text-[#c8a24d]">Legal</a>
+            <span>|</span>
+
+            <a href="#" class="hover:text-[#c8a24d]">Terms & Conditions</a>
+            <span>|</span>
+
+            <a href="#" class="hover:text-[#c8a24d]">Cookie Preferences</a>
+            <span>|</span>
+
+            <a href="#" class="hover:text-[#c8a24d]">Security Alert</a>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+</body>
+</html>

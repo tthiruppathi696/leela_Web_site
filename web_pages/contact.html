@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <title>Experience Section</title>
+</head>
+
+<body>
+   
+
+
+
+
+<!-- Navbar -->
+<header class="fixed top-0 left-0 w-full z-50 bg-[#F8F4EB] shadow-sm">
+
+    <nav class="max-w-[1600px] mx-auto h-20 md:h-24 px-4 md:px-8 flex items-center justify-between">
+
+        <!-- Left -->
+        <div class="flex items-center gap-4 lg:gap-10">
+
+            <!-- Menu -->
+             <input type="checkbox" id="menu-toggle" class="hidden peer">
+
+       <label for="menu-toggle"
+       class="text-3xl cursor-pointer hover:text-[#9D6C43]">
+           ☰
+        </label>
+
+        <!-- Sidebar -->
+<div
+class="fixed top-0 left-[-100%]
+peer-checked:left-0
+w-72 h-screen  bg-[#F8F4EB]  shadow-xl
+z-[999] transition-all duration-300">
+
+    <!-- Close -->
+    <div class="flex justify-end p-6">
+        <label for="menu-toggle"
+               class="text-4xl cursor-pointer">
+            ✕
+        </label>
+    </div>
+<nav class="flex flex-col">
+
+    <!-- Home -->
+    <a href="../Index.html"
+       class="px-6 py-4 border-b hover:bg-gray-100">
+        Home
+    </a>
+
+    <!-- Hotels Dropdown -->
+    <div class="relative group border-b">
+
+        <button
+            class="w-full flex justify-between items-center px-6 py-4 hover:bg-gray-100">
+            Hotels
+            <span>▼</span>
+        </button>
+
+        <!-- Dropdown -->
+        <div
+            class="hidden group-hover:block bg-[#F8F4EC] shadow-md">
+
+            <a href="leelamumbai.html"
+               class="block px-8 py-3 hover:bg-gray-100">
+                The Leela Mumbai
+            </a>
+
+            <a href="leeladelhi.html"
+               class="block px-8 py-3 hover:bg-gray-100">
+                The Leela Palace New Delhi
+            </a>
+
+            <a href="bengaluru.html"
+               class="block px-8 py-3 hover:bg-gray-100">
+                The Leela Palace Bengaluru
+            </a>
+
+            <a href="chennai.html"
+               class="block px-8 py-3 hover:bg-gray-100">
+                The Leela Palace Chennai
+            </a>
+
+            <a href="jaipur.html"
+               class="block px-8 py-3 hover:bg-gray-100">
+                The Leela Palace Jaipur
+            </a>
+
+        </div>
+
+    </div>
+
+    <!-- Experiences -->
+    <a href="experience.html"
+       class="px-6 py-4 border-b hover:bg-gray-100">
+        Experiences
+    </a>
+
+    <!-- Offers -->
+    <a href="offers.html"
+       class="px-6 py-4 border-b hover:bg-gray-100">
+        Offers
+    </a>
+
+    <!-- Contact -->
+    <a href="contact.html"
+       class="px-6 py-4 border-b hover:bg-gray-100">
+        Contact Us
+    </a>
+
+    <!-- Book -->
+    <a href="Booking.html"
+       class="mx-6 mt-8 text-center py-3 bg-[#9D6C43] text-white hover:bg-[#835734] transition">
+        BOOK
+    </a>
+
+</nav>
+
+</div>
+
+            <!-- Desktop Links -->
+            <ul class="hidden lg:flex items-center gap-10 text-[18px] text-[#222]">
+
+<li class="relative group">
+
+    <!-- Hotels Button -->
+    <a href="#" class="flex items-center gap-1 py-8 hover:text-[#9D6C43] transition">
+        Hotels
+        <span class="text-xs">▼</span>
+    </a>
+
+    <!-- Mega Dropdown -->
+    <div class="absolute left-0 top-full w-screen bg-[#F8F4EB] shadow-xl
+                opacity-0 invisible
+                group-hover:opacity-100
+                group-hover:visible
+                transition-all duration-300 z-50">
+
+        <div class="max-w-7xl mx-auto px-10 py-10">
+
+            <div class="grid grid-cols-4 gap-12">
+
+                <!-- Left Menu -->
+                <div class="space-y-5 border-r pr-8">
+
+                    <a href="#" class="block font-semibold border-b border-[#9D6C43] pb-2">
+                        All Hotels
+                    </a>
+
+                    <a href="#" class="block hover:text-[#9D6C43]">
+                        Palaces
+                    </a>
+
+                    <a href="#" class="block hover:text-[#9D6C43]">
+                        Hotels
+                    </a>
+
+                    <a href="#" class="block hover:text-[#9D6C43]">
+                        Resorts
+                    </a>
+
+                </div>
+
+                <!-- Column 1 -->
+                <div class="space-y-6">
+
+                    <div>
+                        <h3 class="font-semibold text-xl">Bengaluru</h3>
+                        <p>The Leela Palace Bengaluru</p>
+                        <p>The Leela Bhartiya City Bengaluru</p>
+                    </div>
+
+                    <div>
+                        <h3 class="font-semibold text-xl">Jaipur</h3>
+                        <p>The Leela Palace Jaipur</p>
+                    </div>
+
+                    <div>
+                        <h3 class="font-semibold text-xl">Hyderabad</h3>
+                        <p>The Leela Hyderabad</p>
+                    </div>
+
+                    <div>
+                        <h3 class="font-semibold text-xl">Gandhinagar</h3>
+                        <p>The Leela Gandhinagar</p>
+                    </div>
+
+                </div>
+
+                <!-- Column 2 -->
+                <div class="space-y-6">
+
+                    <div>
+                        <h3 class="font-semibold text-xl">Coorg</h3>
+                        <p>The Leela Coorg Forest Sanctuary</p>
+                    </div>
+
+                    <div>
+                        <h3 class="font-semibold text-xl">Delhi</h3>
+                        <p>The Leela Palace New Delhi</p>
+                        <p>The Leela Ambience Convention Hotel Delhi</p>
+                    </div>
+
+                    <div>
+                        <h3 class="font-semibold text-xl">Ashtamudi</h3>
+                        <p>The Leela Ashtamudi</p>
+                    </div>
+
+                    <div>
+                        <h3 class="font-semibold text-xl">Gurugram</h3>
+                        <p>The Leela Ambience Gurugram</p>
+                    </div>
+
+                </div>
+
+                <!-- Column 3 -->
+                <div class="space-y-6">
+
+                    <div>
+                        <h3 class="font-semibold text-xl">Chennai</h3>
+                        <p>The Leela Palace Chennai</p>
+                    </div>
+
+                    <div>
+                        <h3 class="font-semibold text-xl">Udaipur</h3>
+                        <p>The Leela Palace Udaipur</p>
+                    </div>
+
+                    <div>
+                        <h3 class="font-semibold text-xl">Kovalam</h3>
+                        <p>The Leela Kovalam</p>
+                    </div>
+
+                    <div>
+                        <h3 class="font-semibold text-xl">Mumbai</h3>
+                        <p>The Leela Mumbai</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</li>
+
+                <li>
+                    <a href="experience.html" class="hover:text-[#9D6C43] transition">
+                        Experiences
+                    </a>
+                </li>
+
+                <li>
+                    <a href="offers.html" class="hover:text-[#9D6C43] transition">
+                        Offers
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- Center Logo -->
+        <div class="absolute left-1/2 -translate-x-1/2 text-center">
+
+            <h1
+                class="text-xl sm:text-2xl md:text-4xl tracking-[0.25em] md:tracking-[0.35em]"
+                style="font-family:'Cinzel',serif;">
+
+                LEELA
+
+            </h1>
+
+            <p
+                class="hidden sm:block text-[8px] md:text-[11px] uppercase tracking-[0.3em] text-gray-600">
+
+                PALACES • HOTELS • RESORTS
+
+            </p>
+
+        </div>
+
+     <!-- Right -->
+<div class="flex items-center gap-2 sm:gap-4 md:gap-8">
+
+    <!-- Login -->
+    <a href="Login.html"
+       class="flex items-center gap-1 sm:gap-2
+              hover:text-[#9D6C43] transition">
+
+        <svg xmlns="http://www.w3.org/2000/svg"
+             fill="none"
+             viewBox="0 0 24 24"
+             stroke-width="1.8"
+             stroke="currentColor"
+             class="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7">
+
+            <path stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M15.75 6.75a3.75 3.75 0 11-7.5 0
+                  3.75 3.75 0 017.5 0zM4.5
+                  20.118a7.5 7.5 0 0115
+                  0A17.933 17.933 0 0112
+                  21.75c-2.676 0-5.216-.584-7.5-1.632z"/>
+
+        </svg>
+
+        <!-- Login text hidden only on very small screens -->
+        <span class="hidden sm:inline text-sm md:text-lg">
+            Login
+        </span>
+
+    </a>
+
+    <!-- Book -->
+    <a href="Booking.html"
+       class="bg-[#9D6C43]
+              hover:bg-[#7f5636]
+              text-white
+              px-3 sm:px-5 md:px-10
+              py-2 sm:py-2.5 md:py-3
+              text-xs sm:text-sm md:text-base
+              tracking-widest
+              uppercase
+              whitespace-nowrap">
+
+        Book
+
+    </a>
+
+</div>
+
+    </nav>
+
+</header>
+
+
+
+
+   <!-- Contact Us Page Content -->
+<section class="bg-[#fbfaf3] min-h-screen py-14 mt-20">
+
+    <div class="max-w-[1450px] mx-auto px-6 md:px-12 lg:px-20">
+
+        <!-- Page Heading -->
+        <h1 class="font-serif text-[38px] md:text-[46px] lg:text-[52px] font-normal text-[#31506c]">
+            Contact Us
+        </h1>
+
+
+        <!-- Contact Tabs -->
+        <div class="
+            mt-12
+            flex flex-wrap
+            justify-center lg:justify-start
+            gap-x-8 gap-y-5
+            text-[17px] md:text-[19px]
+            text-black
+        ">
+
+            <a href="#reservations"
+               class="text-[#b47a21] border-b border-[#b47a21] pb-1">
+                Reservations
+            </a>
+
+            <a href="#hotels"
+               class="hover:text-[#b47a21] transition">
+                Hotels
+            </a>
+
+            <a href="#offices"
+               class="hover:text-[#b47a21] transition">
+                Our offices
+            </a>
+
+            <a href="#convention"
+               class="hover:text-[#b47a21] transition">
+                Convention Centre
+            </a>
+
+            <a href="#feedback"
+               class="hover:text-[#b47a21] transition">
+                Guest Feedback
+            </a>
+
+            <a href="#investor"
+               class="hover:text-[#b47a21] transition">
+                Investor Queries &amp; Grievance
+            </a>
+
+        </div>
+
+
+        <!-- Reservations Section -->
+        <div id="reservations" class="mt-12">
+
+            <!-- Description -->
+            <div class="max-w-[900px] mx-auto text-center">
+
+                <p class="
+                    text-[16px]
+                    md:text-[17px]
+                    lg:text-[18px]
+                    leading-7
+                    text-[#3c5570]
+                ">
+                    To contact one of our Reservations Associate at The Leela
+                    Reservations Worldwide, you may either write on:
+                </p>
+
+                <p class="
+                    text-[16px]
+                    md:text-[17px]
+                    lg:text-[18px]
+                    leading-7
+                    text-[#3c5570]
+                ">
+
+                    <a
+                        href="mailto:reservations@theleela.com"
+                        class="text-[#e17b18] font-medium hover:underline"
+                    >
+                        reservations@theleela.com
+                    </a>
+
+                    <span>
+                        or Call on any of the numbers listed along side.
+                    </span>
+
+                </p>
+
+            </div>
+
+
+            <!-- Phone Numbers -->
+            <div class="
+                mt-14
+                grid
+                grid-cols-1
+                sm:grid-cols-2
+                lg:grid-cols-3
+                gap-y-12
+                gap-x-10
+                text-center
+            ">
+
+
+                <!-- Hong Kong -->
+                <div>
+                    <h2 class="
+                        font-serif
+                        text-[25px]
+                        md:text-[28px]
+                        text-black
+                    ">
+                        Hong Kong Toll Free
+                    </h2>
+
+                    <p class="
+                        mt-2
+                        text-[17px]
+                        md:text-[18px]
+                        text-[#3c5570]
+                    ">
+                        800 906 444
+                    </p>
+                </div>
+
+
+                <!-- Singapore -->
+                <div>
+                    <h2 class="
+                        font-serif
+                        text-[25px]
+                        md:text-[28px]
+                        text-black
+                    ">
+                        Singapore Toll Free
+                    </h2>
+
+                    <p class="
+                        mt-2
+                        text-[17px]
+                        md:text-[18px]
+                        text-[#3c5570]
+                    ">
+                        1800 223 4444
+                    </p>
+                </div>
+
+
+                <!-- India -->
+                <div>
+                    <h2 class="
+                        font-serif
+                        text-[25px]
+                        md:text-[28px]
+                        text-black
+                    ">
+                        India Toll Free
+                    </h2>
+
+                    <p class="
+                        mt-2
+                        text-[17px]
+                        md:text-[18px]
+                        text-[#3c5570]
+                    ">
+                        1800 1031 444
+                    </p>
+                </div>
+
+
+                <!-- Other Countries -->
+                <div>
+                    <h2 class="
+                        font-serif
+                        text-[25px]
+                        md:text-[28px]
+                        text-black
+                    ">
+                        Other Countries
+                    </h2>
+
+                    <p class="
+                        mt-2
+                        text-[17px]
+                        md:text-[18px]
+                        text-[#3c5570]
+                    ">
+                        +91 124 4425 444
+                    </p>
+                </div>
+
+
+                <!-- USA -->
+                <div>
+                    <h2 class="
+                        font-serif
+                        text-[25px]
+                        md:text-[28px]
+                        text-black
+                    ">
+                        USA Toll Free
+                    </h2>
+
+                    <p class="
+                        mt-2
+                        text-[17px]
+                        md:text-[18px]
+                        text-[#3c5570]
+                    ">
+                        855 670 3444
+                    </p>
+                </div>
+
+
+                <!-- UK -->
+                <div>
+                    <h2 class="
+                        font-serif
+                        text-[25px]
+                        md:text-[28px]
+                        text-black
+                    ">
+                        UK Toll Free
+                    </h2>
+
+                    <p class="
+                        mt-2
+                        text-[17px]
+                        md:text-[18px]
+                        text-[#3c5570]
+                    ">
+                        08 000 26 1111
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Enquire Now -->
+        <div class="mt-20">
+
+            <h2 class="
+                font-serif
+                text-[38px]
+                md:text-[45px]
+                lg:text-[48px]
+                font-normal
+                text-[#31506c]
+            ">
+                Enquire Now
+            </h2>
+
+        </div>
+
+
+        <!-- Enquiry Form -->
+        <div class="mt-10">
+
+            <form class="grid grid-cols-1 md:grid-cols-2 gap-5">
+
+                <!-- Name -->
+                <input
+                    type="text"
+                    placeholder="Name*"
+                    class="
+                        w-full
+                        border border-[#cfcfcf]
+                        bg-transparent
+                        px-5 py-4
+                        outline-none
+                        focus:border-[#9d6c43]
+                    "
+                >
+
+
+                <!-- Email -->
+                <input
+                    type="email"
+                    placeholder="Email*"
+                    class="
+                        w-full
+                        border border-[#cfcfcf]
+                        bg-transparent
+                        px-5 py-4
+                        outline-none
+                        focus:border-[#9d6c43]
+                    "
+                >
+
+
+                <!-- Phone -->
+                <input
+                    type="tel"
+                    placeholder="Phone*"
+                    class="
+                        w-full
+                        border border-[#cfcfcf]
+                        bg-transparent
+                        px-5 py-4
+                        outline-none
+                        focus:border-[#9d6c43]
+                    "
+                >
+
+
+                <!-- Hotel -->
+                <select
+                    class="
+                        w-full
+                        border border-[#cfcfcf]
+                        bg-transparent
+                        px-5 py-4
+                        outline-none
+                        text-[#555]
+                        focus:border-[#9d6c43]
+                    "
+                >
+                    <option>Select a Hotel</option>
+                    <option>The Leela Mumbai</option>
+                    <option>The Leela Palace Bengaluru</option>
+                    <option>The Leela Palace New Delhi</option>
+                    <option>The Leela Palace Chennai</option>
+                    <option>The Leela Palace Jaipur</option>
+                </select>
+
+
+                <!-- Message -->
+                <textarea
+                    rows="5"
+                    placeholder="Your Message"
+                    class="
+                        md:col-span-2
+                        w-full
+                        border border-[#cfcfcf]
+                        bg-transparent
+                        px-5 py-4
+                        outline-none
+                        resize-none
+                        focus:border-[#9d6c43]
+                    "
+                ></textarea>
+
+
+                <!-- Submit -->
+                <div class="md:col-span-2 text-center">
+
+                    <button
+                        type="submit"
+                        class="
+                            bg-[#9d6c43]
+                            text-white
+                            px-12
+                            py-4
+                            uppercase
+                            tracking-wider
+                            hover:bg-[#805634]
+                            transition
+                        "
+                    >
+                        Submit
+                    </button>
+
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+</body>
